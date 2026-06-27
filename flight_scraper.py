@@ -2,9 +2,11 @@ import requests
 from bs4 import BeautifulSoup
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+from webdriver_manager.chrome import ChromeDriverManager
 import time
 import json
 import logging
@@ -30,7 +32,7 @@ class FlightScraper:
         """הגדרת WebDriver עם Chrome"""
         try:
             chrome_options = Options()
-            chrome_options.add_argument('--headless')
+            chrome_options.add_argument('--headless=new')
             chrome_options.add_argument('--no-sandbox')
             chrome_options.add_argument('--disable-dev-shm-usage')
             chrome_options.add_argument('--disable-gpu')
@@ -39,9 +41,10 @@ class FlightScraper:
             chrome_options.add_argument('--disable-blink-features=AutomationControlled')
             chrome_options.add_experimental_option("excludeSwitches", ["enable-automation"])
             chrome_options.add_experimental_option('useAutomationExtension', False)
+            chrome_options.binary_location = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
 
-            # Selenium Manager will locate/download the correct driver automatically
-            self.driver = webdriver.Chrome(options=chrome_options)
+            service = Service(ChromeDriverManager().install())
+            self.driver = webdriver.Chrome(service=service, options=chrome_options)
 
             # Post-init stealth tweak
             self.driver.execute_script("Object.defineProperty(navigator, 'webdriver', {get: () => undefined})")
@@ -83,143 +86,69 @@ class FlightScraper:
     
     def find_flight_elements(self):
         """חיפוש אלמנטים של טיסות בדף"""
-        flight_elements = []
-        
-        # ניסיון מספר סלקטורים נפוצים
-        selectors = [
-            ".flight-item",
-            ".flight",
-            ".trip",
-            ".offer",
-            ".deal",
-            "[class*='flight']",
-            "[class*='trip']",
-            "[class*='offer']",
-            ".card",
-            ".product"
-        ]
-        
-        for selector in selectors:
-            try:
-                elements = self.driver.find_elements(By.CSS_SELECTOR, selector)
-                if elements:
-                    logging.info(f"נמצאו {len(elements)} אלמנטים עם סלקטור {selector}")
-                    flight_elements.extend(elements)
-                    break
-            except:
-                continue
-        
-        # אם לא נמצאו אלמנטים ספציפיים, נחפש אלמנטים כלליים
-        if not flight_elements:
-            try:
-                # חיפוש אלמנטים שמכילים מילות מפתח
-                all_elements = self.driver.find_elements(By.XPATH, "//*[contains(text(), '₪') or contains(text(), 'שח') or contains(text(), 'טיסה') or contains(text(), 'יעד')]")
-                flight_elements = all_elements[:20]  # מגבילים למקסימום 20 אלמנטים
-                logging.info(f"נמצאו {len(flight_elements)} אלמנטים כלליים")
-            except:
-                pass
-        
-        return flight_elements
-    
+        try:
+            elements = self.driver.find_elements(By.CSS_SELECTOR, ".show_item")
+            if elements:
+                logging.info(f"נמצאו {len(elements)} אלמנטים עם סלקטור .show_item")
+                return elements
+        except:
+            pass
+        logging.warning("לא נמצאו אלמנטים של טיסות")
+        return []
+
     def extract_flight_data(self, element):
         """חילוץ נתונים מאלמנט טיסה"""
+        import re
         try:
-            text = element.text.strip()
-            if not text:
+            # יעד מתוך תכונת con_desc
+            destination = element.get_attribute('con_desc') or ''
+            destination = destination.split(' - ')[0].strip()
+
+            if not destination:
                 return None
-            
-            # חיפוש יעד
-            destination = self.extract_destination(text, element)
-            
+
             # דילוג על יעדים מוחרגים
-            if destination and any(destination == ex for ex in EXCLUDED_DESTINATIONS):
+            if any(destination == ex for ex in EXCLUDED_DESTINATIONS):
                 return None
-            
-            # חיפוש מחיר
-            price = self.extract_price(text, element)
-            
-            # חיפוש תאריכים
-            dates = self.extract_dates(text, element)
-            
+
+            # סינון לפי יעדים מועדפים
+            if PREFERRED_DESTINATIONS and destination not in PREFERRED_DESTINATIONS:
+                return None
+
+            # מחיר מתוך תכונת data_number_ga_price
+            price_attr = element.get_attribute('data_number_ga_price') or ''
+            price = int(price_attr) if price_attr.isdigit() else None
+
+            # מטבע מתוך data_ga_currency
+            currency = element.get_attribute('data_ga_currency') or '₪'
+
+            # תאריכים מתוך data_ga_item_brand (פורמט: "חזרה-יציאה")
+            brand = element.get_attribute('data_ga_item_brand') or ''
+            brand_parts = [d.strip() for d in brand.split('-') if d.strip()] if brand else []
+            # הפורמט הוא return-departure, הופכים לסדר הנכון: [יציאה, חזרה]
+            brand_dates = [brand_parts[1], brand_parts[0]] if len(brand_parts) == 2 else None
+
             if destination and price:
                 return {
                     'destination': destination,
                     'price': price,
-                    'dates': dates,
-                    'full_text': text,
+                    'currency': currency,
+                    'dates': brand_dates,
                     'scraped_at': datetime.now().isoformat(),
                     'url': TUSTUS_URL
                 }
         except Exception as e:
             logging.warning(f"שגיאה בחילוץ נתונים מאלמנט: {e}")
-        
+
         return None
-    
-    def extract_destination(self, text, element):
-        """חילוץ יעד מהטקסט"""
-        # חיפוש יעדים מהרשימה המועדפת
-        for dest in PREFERRED_DESTINATIONS:
-            if dest in text:
-                return dest
-        
-        # חיפוש מילות מפתח נוספות לערים
-        cities_keywords = ['ברלין', 'פריז', 'לונדון', 'רומא', 'מדריד', 'אמסטרדם', 'פראג', 'ויאנה', 'ברצלונה', 'מילאנו', 'ניס', 'ליסבון']
-        for city in cities_keywords:
-            if city in text:
-                return city
-        
-        return None
-    
-    def extract_price(self, text, element):
-        """חילוץ מחיר מהטקסט"""
-        import re
-        
-        # חיפוש מחירים בפורמטים שונים
-        price_patterns = [
-            r'(\d{1,4})\s*₪',
-            r'(\d{1,4})\s*שח',
-            r'₪\s*(\d{1,4})',
-            r'שח\s*(\d{1,4})',
-            r'(\d{1,4})\s*שקל',
-            r'מ\s*(\d{1,4})',
-            r'החל\s*מ\s*(\d{1,4})'
-        ]
-        
-        for pattern in price_patterns:
-            match = re.search(pattern, text)
-            if match:
-                try:
-                    return int(match.group(1))
-                except:
-                    continue
-        
-        return None
-    
-    def extract_dates(self, text, element):
-        """חילוץ תאריכים מהטקסט"""
-        import re
-        
-        # חיפוש תאריכים בפורמטים שונים
-        date_patterns = [
-            r'(\d{1,2}[./]\d{1,2}[./]\d{2,4})',
-            r'(\d{1,2}\s*[בב]\w+\s*\d{4})',
-            r'(ינואר|פברואר|מרץ|אפריל|מאי|יוני|יולי|אוגוסט|ספטמבר|אוקטובר|נובמבר|דצמבר)'
-        ]
-        
-        dates = []
-        for pattern in date_patterns:
-            matches = re.findall(pattern, text)
-            dates.extend(matches)
-        
-        return dates if dates else None
     
     def is_relevant_destination(self, destination):
-        """בדיקה אם היעד רלוונטי"""
         if not destination:
             return False
-        # אם הוגדר החרגה - לא רלוונטי
         if any(destination == ex for ex in EXCLUDED_DESTINATIONS):
             return False
+        if not PREFERRED_DESTINATIONS:
+            return True
         return destination in PREFERRED_DESTINATIONS
     
     def close(self):
@@ -235,9 +164,9 @@ def test_scraper():
         flights = scraper.scrape_flights()
         print(f"נמצאו {len(flights)} טיסות:")
         for flight in flights:
-            print(f"- {flight['destination']}: {flight['price']}₪")
+            currency = flight.get('currency', '₪')
+            print(f"- {flight['destination']}: {flight['price']}{currency}")
             print(f"  תאריכים: {flight['dates']}")
-            print(f"  טקסט מלא: {flight['full_text'][:100]}...")
             print("-" * 50)
     finally:
         scraper.close()
