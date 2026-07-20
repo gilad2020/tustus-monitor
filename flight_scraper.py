@@ -1,3 +1,4 @@
+import os
 import requests
 from bs4 import BeautifulSoup
 from selenium import webdriver
@@ -41,7 +42,10 @@ class FlightScraper:
             chrome_options.add_argument('--disable-blink-features=AutomationControlled')
             chrome_options.add_experimental_option("excludeSwitches", ["enable-automation"])
             chrome_options.add_experimental_option('useAutomationExtension', False)
-            chrome_options.binary_location = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
+            mac_chrome = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
+            chrome_bin = os.getenv('CHROME_BIN') or (mac_chrome if os.path.exists(mac_chrome) else None)
+            if chrome_bin:
+                chrome_options.binary_location = chrome_bin
 
             service = Service(ChromeDriverManager().install())
             self.driver = webdriver.Chrome(service=service, options=chrome_options)
