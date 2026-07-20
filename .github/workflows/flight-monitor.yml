@@ -1,9 +1,10 @@
-# Runs every 15 minutes; also triggerable manually.
+# Runs every 15 minutes (offset from :00/:15/:30/:45 to avoid GitHub's
+# busiest scheduling windows); also triggerable manually.
 name: Flight Monitor
 
 on:
   schedule:
-    - cron: '*/15 * * * *'
+    - cron: '3,18,33,48 * * * *'
   workflow_dispatch:
 
 permissions:
