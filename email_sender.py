@@ -250,7 +250,9 @@ class EmailSender:
                 else:
                     subject = f"🆕 {len(new_flights)} טיסות רגע אחרון חדשות!"
             else:
-                subject = "😴 אין טיסות רגע אחרון חדשות"
+                # אם אין טיסות חדשות, לא שולחים מייל
+                logging.info("אין טיסות חדשות לשליחה")
+                return True
             
             # יצירת HTML
             html_content = self.create_email_html(new_flights, price_changes, stats)

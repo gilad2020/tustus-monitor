@@ -51,21 +51,22 @@ class FlightAlertSystem:
             new_flights = result.get('new_flights', [])
             price_changes = result.get('price_changes', [])
 
+            # שליחת מייל רק אם יש טיסות חדשות (כי המחירים קבועים)
             if new_flights:
                 logging.info(f"נמצאו {len(new_flights)} טיסות רגע אחרון חדשות")
+
+                # קבלת סטטיסטיקות
+                stats = self.monitor.get_statistics()
+
+                # שליחת מייל
+                success = self.email_sender.send_update_email(new_flights, price_changes, stats)
+
+                if success:
+                    logging.info("מייל התראה על טיסות חדשות נשלח בהצלחה")
+                else:
+                    logging.error("שגיאה בשליחת מייל התראה")
             else:
                 logging.info("לא נמצאו טיסות רגע אחרון חדשות")
-
-            # קבלת סטטיסטיקות
-            stats = self.monitor.get_statistics()
-
-            # שליחת מייל - תמיד, גם ללא טיסות חדשות, כדי לראות שהריצה קרתה
-            success = self.email_sender.send_update_email(new_flights, price_changes, stats)
-
-            if success:
-                logging.info("מייל עדכון נשלח בהצלחה")
-            else:
-                logging.error("שגיאה בשליחת מייל עדכון")
                 
         except Exception as e:
             logging.error(f"שגיאה כללית בבדיקת טיסות: {e}")
