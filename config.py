@@ -17,33 +17,7 @@ TUSTUS_URL = 'https://www.tustus.co.il/Arkia/Home'
 CHECK_INTERVAL_MINUTES = int(os.getenv('CHECK_INTERVAL_MINUTES', '60'))  # שעה במקום חצי שעה
 
 # יעדים מועדפים - ניתן להוסיף או לשנות
-PREFERRED_DESTINATIONS = [
-    'ברלין',
-    'פריז', 
-    'לונדון',
-    'רומא',
-    'אמסטרדם',
-    'פראג',
-    'ויאנה',
-    'מדריד',
-    'ברצלונה',
-    'אתונה',
-    'דובאי',
-    'בנגקוק',
-    'קטמנדו',
-    'נפאל',
-    'הודו',
-    'ניו יורק',
-    'מיאמי',
-    "לוס אנג'לס",
-    'איסטנבול',
-    'בודפשט',
-    'מילאנו',
-    'ניס',
-    'ליסבון',
-    'זאגרב',
-    'בלגרד'
-]
+PREFERRED_DESTINATIONS = []  # ריק = כל היעדים
 
 # רשימת יעדים לא רלוונטיים (יוצאים מההתראה)
 EXCLUDED_DESTINATIONS = [d.strip() for d in os.getenv('EXCLUDED_DESTINATIONS', '').split(',') if d.strip()]
