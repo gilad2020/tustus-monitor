@@ -1,10 +1,9 @@
-# Runs every 15 minutes (offset from :00/:15/:30/:45 to avoid GitHub's
-# busiest scheduling windows); also triggerable manually.
+# Triggered every 15 minutes by an external cron-job.org ping to the
+# workflow_dispatch API; GitHub's own schedule trigger is intentionally
+# not used here to avoid duplicate/overlapping runs.
 name: Flight Monitor
 
 on:
-  schedule:
-    - cron: '3,18,33,48 * * * *'
   workflow_dispatch:
 
 permissions:
@@ -48,7 +47,10 @@ jobs:
           git add -f flights_data.json
           if ! git diff --cached --quiet; then
             git commit -m "Update tracked flights data [skip ci]"
-            git push
+            for i in 1 2 3 4 5; do
+              git push && break
+              git pull --rebase origin main
+            done
           fi
 
       - name: Notify on failure
