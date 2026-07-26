@@ -66,10 +66,16 @@ class FlightScraper:
             # המתנה לטעינת הדף
             wait = WebDriverWait(self.driver, 20)
             wait.until(EC.presence_of_element_located((By.TAG_NAME, "body")))
-            
-            # המתנה נוספת לטעינת תוכן דינמי
-            time.sleep(5)
-            
+
+            # המתנה לטעינת התוכן הדינמי (אלמנטי הטיסות עצמם), עם timeout סביר
+            try:
+                WebDriverWait(self.driver, 15).until(
+                    EC.presence_of_element_located((By.CSS_SELECTOR, ".show_item"))
+                )
+            except Exception:
+                # אם אחרי ה-timeout עדיין אין אלמנטים, כנראה שבאמת אין טיסות כרגע
+                pass
+
             # חיפוש אלמנטים של טיסות
             flights = []
             
