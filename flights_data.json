@@ -1,7 +1,2473 @@
 {
-  "flights": [],
-  "new_flights": [],
-  "last_check": "2026-07-26T23:01:14.043637",
-  "total_flights_found": 0,
-  "new_flights_count": 0
+  "flights": [
+    {
+      "destination": "רודוס",
+      "price": 100,
+      "currency": "USD",
+      "dates": [
+        "7/27/2026 4:50:00 PM",
+        "7/30/2026 10:30:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:49.364612",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "קורפו",
+      "price": 150,
+      "currency": "USD",
+      "dates": [
+        "7/27/2026 7:20:00 PM",
+        "7/29/2026 11:35:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:49.383200",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "כרתים",
+      "price": 150,
+      "currency": "USD",
+      "dates": [
+        "7/27/2026 6:40:00 PM",
+        "7/30/2026 11:00:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:49.409242",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "אתונה",
+      "price": 150,
+      "currency": "USD",
+      "dates": [
+        "7/27/2026 11:00:00 PM",
+        "7/29/2026 9:00:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:49.441741",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "אלבניה",
+      "price": 150,
+      "currency": "USD",
+      "dates": [
+        "7/27/2026 11:20:00 PM",
+        "7/29/2026 10:30:00 PM"
+      ],
+      "scraped_at": "2026-07-26T23:15:49.470757",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "לרנקה",
+      "price": 100,
+      "currency": "USD",
+      "dates": [
+        "7/28/2026 12:15:00 AM",
+        "7/29/2026 8:20:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:49.494100",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "ברצלונה",
+      "price": 150,
+      "currency": "USD",
+      "dates": [
+        "7/28/2026 5:20:00 PM",
+        "8/2/2026 7:40:00 PM"
+      ],
+      "scraped_at": "2026-07-26T23:15:49.513358",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "רודוס",
+      "price": 100,
+      "currency": "USD",
+      "dates": [
+        "7/28/2026 3:55:00 PM",
+        "7/30/2026 10:30:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:49.530938",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "כרתים",
+      "price": 150,
+      "currency": "USD",
+      "dates": [
+        "7/28/2026 4:35:00 PM",
+        "7/30/2026 11:00:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:49.547995",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "לרנקה",
+      "price": 100,
+      "currency": "USD",
+      "dates": [
+        "7/28/2026 9:25:00 PM",
+        "7/30/2026 8:20:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:49.565088",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "אתונה",
+      "price": 150,
+      "currency": "USD",
+      "dates": [
+        "7/28/2026 11:20:00 PM",
+        "8/2/2026 10:45:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:49.582051",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "רודוס",
+      "price": 100,
+      "currency": "USD",
+      "dates": [
+        "7/27/2026 4:50:00 PM",
+        "7/30/2026 10:30:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:49.598769",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "רודוס",
+      "price": 100,
+      "currency": "USD",
+      "dates": [
+        "7/27/2026 4:50:00 PM",
+        "7/30/2026 10:30:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:49.615951",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "רודוס",
+      "price": 100,
+      "currency": "USD",
+      "dates": [
+        "7/27/2026 4:50:00 PM",
+        "7/30/2026 10:30:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:49.636914",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "רודוס",
+      "price": 100,
+      "currency": "USD",
+      "dates": [
+        "7/27/2026 4:50:00 PM",
+        "8/1/2026 10:30:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:49.657079",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "רודוס",
+      "price": 100,
+      "currency": "USD",
+      "dates": [
+        "7/27/2026 4:50:00 PM",
+        "8/1/2026 10:30:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:49.680694",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "רודוס",
+      "price": 100,
+      "currency": "USD",
+      "dates": [
+        "7/27/2026 4:50:00 PM",
+        "8/1/2026 10:30:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:49.699372",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "רודוס",
+      "price": 100,
+      "currency": "USD",
+      "dates": [
+        "7/27/2026 4:50:00 PM",
+        "8/1/2026 10:30:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:49.723991",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "קורפו",
+      "price": 150,
+      "currency": "USD",
+      "dates": [
+        "7/27/2026 7:20:00 PM",
+        "7/29/2026 11:35:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:49.742499",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "קורפו",
+      "price": 150,
+      "currency": "USD",
+      "dates": [
+        "7/27/2026 7:20:00 PM",
+        "7/30/2026 9:40:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:49.760375",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "קורפו",
+      "price": 150,
+      "currency": "USD",
+      "dates": [
+        "7/27/2026 7:20:00 PM",
+        "7/30/2026 9:40:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:49.779401",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "כרתים",
+      "price": 150,
+      "currency": "USD",
+      "dates": [
+        "7/27/2026 6:40:00 PM",
+        "7/30/2026 11:00:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:49.797354",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "כרתים",
+      "price": 150,
+      "currency": "USD",
+      "dates": [
+        "7/27/2026 6:40:00 PM",
+        "7/30/2026 11:00:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:49.815202",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "כרתים",
+      "price": 150,
+      "currency": "USD",
+      "dates": [
+        "7/27/2026 6:40:00 PM",
+        "7/30/2026 11:00:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:49.833498",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "אתונה",
+      "price": 150,
+      "currency": "USD",
+      "dates": [
+        "7/27/2026 11:00:00 PM",
+        "7/29/2026 9:00:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:49.850570",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "אתונה",
+      "price": 150,
+      "currency": "USD",
+      "dates": [
+        "7/27/2026 11:00:00 PM",
+        "7/29/2026 9:00:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:49.867540",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "אתונה",
+      "price": 150,
+      "currency": "USD",
+      "dates": [
+        "7/27/2026 11:00:00 PM",
+        "7/29/2026 9:00:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:49.884754",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "אתונה",
+      "price": 150,
+      "currency": "USD",
+      "dates": [
+        "7/27/2026 11:00:00 PM",
+        "7/29/2026 9:00:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:49.901870",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "אתונה",
+      "price": 150,
+      "currency": "USD",
+      "dates": [
+        "7/27/2026 11:00:00 PM",
+        "7/29/2026 9:00:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:49.920348",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "אתונה",
+      "price": 150,
+      "currency": "USD",
+      "dates": [
+        "7/27/2026 11:00:00 PM",
+        "7/29/2026 9:00:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:49.947021",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "אתונה",
+      "price": 150,
+      "currency": "USD",
+      "dates": [
+        "7/27/2026 11:00:00 PM",
+        "7/29/2026 9:00:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:50.028891",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "אתונה",
+      "price": 150,
+      "currency": "USD",
+      "dates": [
+        "7/27/2026 11:00:00 PM",
+        "7/29/2026 9:00:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:50.046236",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "אתונה",
+      "price": 150,
+      "currency": "USD",
+      "dates": [
+        "7/27/2026 11:00:00 PM",
+        "7/29/2026 9:00:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:50.067908",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "אתונה",
+      "price": 150,
+      "currency": "USD",
+      "dates": [
+        "7/27/2026 11:00:00 PM",
+        "8/2/2026 10:45:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:50.102158",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "אתונה",
+      "price": 150,
+      "currency": "USD",
+      "dates": [
+        "7/27/2026 11:00:00 PM",
+        "8/2/2026 10:45:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:50.131329",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "אתונה",
+      "price": 150,
+      "currency": "USD",
+      "dates": [
+        "7/27/2026 11:00:00 PM",
+        "8/2/2026 10:45:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:50.148402",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "אתונה",
+      "price": 150,
+      "currency": "USD",
+      "dates": [
+        "7/27/2026 11:00:00 PM",
+        "8/2/2026 10:45:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:50.169490",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "אתונה",
+      "price": 150,
+      "currency": "USD",
+      "dates": [
+        "7/27/2026 11:00:00 PM",
+        "8/2/2026 10:45:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:50.186444",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "אתונה",
+      "price": 150,
+      "currency": "USD",
+      "dates": [
+        "7/27/2026 11:00:00 PM",
+        "8/2/2026 10:45:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:50.213340",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "אתונה",
+      "price": 150,
+      "currency": "USD",
+      "dates": [
+        "7/27/2026 11:00:00 PM",
+        "8/2/2026 10:45:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:50.248137",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "אתונה",
+      "price": 150,
+      "currency": "USD",
+      "dates": [
+        "7/27/2026 11:00:00 PM",
+        "8/2/2026 10:45:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:50.263234",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "אתונה",
+      "price": 150,
+      "currency": "USD",
+      "dates": [
+        "7/27/2026 11:00:00 PM",
+        "8/2/2026 10:45:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:50.278070",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "אתונה",
+      "price": 150,
+      "currency": "USD",
+      "dates": [
+        "7/27/2026 11:00:00 PM",
+        "8/2/2026 10:45:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:50.292685",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "אלבניה",
+      "price": 150,
+      "currency": "USD",
+      "dates": [
+        "7/27/2026 11:20:00 PM",
+        "7/31/2026 10:30:00 PM"
+      ],
+      "scraped_at": "2026-07-26T23:15:50.307325",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "לרנקה",
+      "price": 100,
+      "currency": "USD",
+      "dates": [
+        "7/28/2026 12:15:00 AM",
+        "7/29/2026 8:20:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:50.322013",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "לרנקה",
+      "price": 100,
+      "currency": "USD",
+      "dates": [
+        "7/28/2026 12:15:00 AM",
+        "7/29/2026 8:20:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:50.336549",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "לרנקה",
+      "price": 100,
+      "currency": "USD",
+      "dates": [
+        "7/28/2026 12:15:00 AM",
+        "7/29/2026 8:20:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:50.351020",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "לרנקה",
+      "price": 100,
+      "currency": "USD",
+      "dates": [
+        "7/28/2026 12:15:00 AM",
+        "7/29/2026 8:20:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:50.365452",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "לרנקה",
+      "price": 100,
+      "currency": "USD",
+      "dates": [
+        "7/28/2026 12:15:00 AM",
+        "7/29/2026 8:20:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:50.379723",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "לרנקה",
+      "price": 100,
+      "currency": "USD",
+      "dates": [
+        "7/28/2026 12:15:00 AM",
+        "7/29/2026 8:20:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:50.394102",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "לרנקה",
+      "price": 100,
+      "currency": "USD",
+      "dates": [
+        "7/28/2026 12:15:00 AM",
+        "7/29/2026 8:20:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:50.408443",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "לרנקה",
+      "price": 100,
+      "currency": "USD",
+      "dates": [
+        "7/28/2026 12:15:00 AM",
+        "7/29/2026 8:20:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:50.422746",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "לרנקה",
+      "price": 100,
+      "currency": "USD",
+      "dates": [
+        "7/28/2026 12:15:00 AM",
+        "7/29/2026 8:20:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:50.437264",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "לרנקה",
+      "price": 100,
+      "currency": "USD",
+      "dates": [
+        "7/28/2026 12:15:00 AM",
+        "7/30/2026 8:20:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:50.451672",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "לרנקה",
+      "price": 100,
+      "currency": "USD",
+      "dates": [
+        "7/28/2026 12:15:00 AM",
+        "7/30/2026 8:20:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:50.466063",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "לרנקה",
+      "price": 100,
+      "currency": "USD",
+      "dates": [
+        "7/28/2026 12:15:00 AM",
+        "7/30/2026 8:20:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:50.480337",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "לרנקה",
+      "price": 100,
+      "currency": "USD",
+      "dates": [
+        "7/28/2026 12:15:00 AM",
+        "7/30/2026 8:20:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:50.494595",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "לרנקה",
+      "price": 100,
+      "currency": "USD",
+      "dates": [
+        "7/28/2026 12:15:00 AM",
+        "7/30/2026 8:20:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:50.509107",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "לרנקה",
+      "price": 100,
+      "currency": "USD",
+      "dates": [
+        "7/28/2026 12:15:00 AM",
+        "7/30/2026 8:20:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:50.523455",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "לרנקה",
+      "price": 100,
+      "currency": "USD",
+      "dates": [
+        "7/28/2026 12:15:00 AM",
+        "7/30/2026 8:20:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:50.537790",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "לרנקה",
+      "price": 100,
+      "currency": "USD",
+      "dates": [
+        "7/28/2026 12:15:00 AM",
+        "7/30/2026 8:20:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:50.552120",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "לרנקה",
+      "price": 100,
+      "currency": "USD",
+      "dates": [
+        "7/28/2026 12:15:00 AM",
+        "7/30/2026 8:20:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:50.566543",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "לרנקה",
+      "price": 100,
+      "currency": "USD",
+      "dates": [
+        "7/28/2026 12:15:00 AM",
+        "7/30/2026 8:20:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:50.581089",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "לרנקה",
+      "price": 100,
+      "currency": "USD",
+      "dates": [
+        "7/28/2026 12:15:00 AM",
+        "8/1/2026 8:20:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:50.595606",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "לרנקה",
+      "price": 100,
+      "currency": "USD",
+      "dates": [
+        "7/28/2026 12:15:00 AM",
+        "8/1/2026 8:20:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:50.609975",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "לרנקה",
+      "price": 100,
+      "currency": "USD",
+      "dates": [
+        "7/28/2026 12:15:00 AM",
+        "8/1/2026 8:20:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:50.624324",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "לרנקה",
+      "price": 100,
+      "currency": "USD",
+      "dates": [
+        "7/28/2026 12:15:00 AM",
+        "8/1/2026 8:20:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:50.638566",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "לרנקה",
+      "price": 100,
+      "currency": "USD",
+      "dates": [
+        "7/28/2026 12:15:00 AM",
+        "8/1/2026 8:20:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:50.653009",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "לרנקה",
+      "price": 100,
+      "currency": "USD",
+      "dates": [
+        "7/28/2026 12:15:00 AM",
+        "8/1/2026 8:20:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:50.667395",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "לרנקה",
+      "price": 100,
+      "currency": "USD",
+      "dates": [
+        "7/28/2026 12:15:00 AM",
+        "8/1/2026 8:20:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:50.681693",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "לרנקה",
+      "price": 100,
+      "currency": "USD",
+      "dates": [
+        "7/28/2026 12:15:00 AM",
+        "8/1/2026 8:20:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:50.696203",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "לרנקה",
+      "price": 100,
+      "currency": "USD",
+      "dates": [
+        "7/28/2026 12:15:00 AM",
+        "8/1/2026 8:20:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:50.710598",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "לרנקה",
+      "price": 100,
+      "currency": "USD",
+      "dates": [
+        "7/28/2026 12:15:00 AM",
+        "8/1/2026 8:20:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:50.724773",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "ברצלונה",
+      "price": 150,
+      "currency": "USD",
+      "dates": [
+        "7/28/2026 5:20:00 PM",
+        "8/2/2026 7:40:00 PM"
+      ],
+      "scraped_at": "2026-07-26T23:15:50.738934",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "רודוס",
+      "price": 100,
+      "currency": "USD",
+      "dates": [
+        "7/28/2026 3:55:00 PM",
+        "7/30/2026 10:30:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:50.753400",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "רודוס",
+      "price": 100,
+      "currency": "USD",
+      "dates": [
+        "7/28/2026 3:55:00 PM",
+        "7/30/2026 10:30:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:50.767681",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "רודוס",
+      "price": 100,
+      "currency": "USD",
+      "dates": [
+        "7/28/2026 3:55:00 PM",
+        "7/30/2026 10:30:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:50.782061",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "רודוס",
+      "price": 100,
+      "currency": "USD",
+      "dates": [
+        "7/28/2026 3:55:00 PM",
+        "8/1/2026 10:30:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:50.796094",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "רודוס",
+      "price": 100,
+      "currency": "USD",
+      "dates": [
+        "7/28/2026 3:55:00 PM",
+        "8/1/2026 10:30:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:50.810534",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "רודוס",
+      "price": 100,
+      "currency": "USD",
+      "dates": [
+        "7/28/2026 3:55:00 PM",
+        "8/1/2026 10:30:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:50.824839",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "רודוס",
+      "price": 100,
+      "currency": "USD",
+      "dates": [
+        "7/28/2026 3:55:00 PM",
+        "8/1/2026 10:30:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:50.839262",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "כרתים",
+      "price": 150,
+      "currency": "USD",
+      "dates": [
+        "7/28/2026 4:35:00 PM",
+        "7/30/2026 11:00:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:50.853571",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "כרתים",
+      "price": 150,
+      "currency": "USD",
+      "dates": [
+        "7/28/2026 4:35:00 PM",
+        "7/30/2026 11:00:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:50.867974",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "כרתים",
+      "price": 150,
+      "currency": "USD",
+      "dates": [
+        "7/28/2026 4:35:00 PM",
+        "7/30/2026 11:00:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:50.882286",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "לרנקה",
+      "price": 100,
+      "currency": "USD",
+      "dates": [
+        "7/28/2026 9:25:00 PM",
+        "7/30/2026 8:20:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:50.897156",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "לרנקה",
+      "price": 100,
+      "currency": "USD",
+      "dates": [
+        "7/28/2026 9:25:00 PM",
+        "7/30/2026 8:20:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:50.911561",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "לרנקה",
+      "price": 100,
+      "currency": "USD",
+      "dates": [
+        "7/28/2026 9:25:00 PM",
+        "7/30/2026 8:20:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:50.925971",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "לרנקה",
+      "price": 100,
+      "currency": "USD",
+      "dates": [
+        "7/28/2026 9:25:00 PM",
+        "7/30/2026 8:20:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:50.940485",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "לרנקה",
+      "price": 100,
+      "currency": "USD",
+      "dates": [
+        "7/28/2026 9:25:00 PM",
+        "7/30/2026 8:20:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:50.955667",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "לרנקה",
+      "price": 100,
+      "currency": "USD",
+      "dates": [
+        "7/28/2026 9:25:00 PM",
+        "7/30/2026 8:20:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:50.970241",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "לרנקה",
+      "price": 100,
+      "currency": "USD",
+      "dates": [
+        "7/28/2026 9:25:00 PM",
+        "7/30/2026 8:20:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:50.984556",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "לרנקה",
+      "price": 100,
+      "currency": "USD",
+      "dates": [
+        "7/28/2026 9:25:00 PM",
+        "7/30/2026 8:20:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:50.998939",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "לרנקה",
+      "price": 100,
+      "currency": "USD",
+      "dates": [
+        "7/28/2026 9:25:00 PM",
+        "7/30/2026 8:20:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:51.013296",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "לרנקה",
+      "price": 100,
+      "currency": "USD",
+      "dates": [
+        "7/28/2026 9:25:00 PM",
+        "8/1/2026 8:20:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:51.027602",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "לרנקה",
+      "price": 100,
+      "currency": "USD",
+      "dates": [
+        "7/28/2026 9:25:00 PM",
+        "8/1/2026 8:20:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:51.041932",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "לרנקה",
+      "price": 100,
+      "currency": "USD",
+      "dates": [
+        "7/28/2026 9:25:00 PM",
+        "8/1/2026 8:20:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:51.056217",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "לרנקה",
+      "price": 100,
+      "currency": "USD",
+      "dates": [
+        "7/28/2026 9:25:00 PM",
+        "8/1/2026 8:20:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:51.070518",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "לרנקה",
+      "price": 100,
+      "currency": "USD",
+      "dates": [
+        "7/28/2026 9:25:00 PM",
+        "8/1/2026 8:20:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:51.084907",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "לרנקה",
+      "price": 100,
+      "currency": "USD",
+      "dates": [
+        "7/28/2026 9:25:00 PM",
+        "8/1/2026 8:20:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:51.099457",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "לרנקה",
+      "price": 100,
+      "currency": "USD",
+      "dates": [
+        "7/28/2026 9:25:00 PM",
+        "8/1/2026 8:20:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:51.113745",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "לרנקה",
+      "price": 100,
+      "currency": "USD",
+      "dates": [
+        "7/28/2026 9:25:00 PM",
+        "8/1/2026 8:20:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:51.128012",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "לרנקה",
+      "price": 100,
+      "currency": "USD",
+      "dates": [
+        "7/28/2026 9:25:00 PM",
+        "8/1/2026 8:20:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:51.142321",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "לרנקה",
+      "price": 100,
+      "currency": "USD",
+      "dates": [
+        "7/28/2026 9:25:00 PM",
+        "8/1/2026 8:20:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:51.156992",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "אתונה",
+      "price": 150,
+      "currency": "USD",
+      "dates": [
+        "7/28/2026 11:20:00 PM",
+        "8/2/2026 10:45:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:51.171524",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "אתונה",
+      "price": 150,
+      "currency": "USD",
+      "dates": [
+        "7/28/2026 11:20:00 PM",
+        "8/2/2026 10:45:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:51.187168",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "אתונה",
+      "price": 150,
+      "currency": "USD",
+      "dates": [
+        "7/28/2026 11:20:00 PM",
+        "8/2/2026 10:45:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:51.201606",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "אתונה",
+      "price": 150,
+      "currency": "USD",
+      "dates": [
+        "7/28/2026 11:20:00 PM",
+        "8/2/2026 10:45:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:51.216143",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "אתונה",
+      "price": 150,
+      "currency": "USD",
+      "dates": [
+        "7/28/2026 11:20:00 PM",
+        "8/2/2026 10:45:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:51.230518",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "אתונה",
+      "price": 150,
+      "currency": "USD",
+      "dates": [
+        "7/28/2026 11:20:00 PM",
+        "8/2/2026 10:45:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:51.244616",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "אתונה",
+      "price": 150,
+      "currency": "USD",
+      "dates": [
+        "7/28/2026 11:20:00 PM",
+        "8/2/2026 10:45:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:51.259028",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "אתונה",
+      "price": 150,
+      "currency": "USD",
+      "dates": [
+        "7/28/2026 11:20:00 PM",
+        "8/2/2026 10:45:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:51.304157",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "אתונה",
+      "price": 150,
+      "currency": "USD",
+      "dates": [
+        "7/28/2026 11:20:00 PM",
+        "8/2/2026 10:45:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:51.319938",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    }
+  ],
+  "new_flights": [
+    {
+      "destination": "רודוס",
+      "price": 100,
+      "currency": "USD",
+      "dates": [
+        "7/27/2026 4:50:00 PM",
+        "7/30/2026 10:30:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:49.364612",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "קורפו",
+      "price": 150,
+      "currency": "USD",
+      "dates": [
+        "7/27/2026 7:20:00 PM",
+        "7/29/2026 11:35:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:49.383200",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "כרתים",
+      "price": 150,
+      "currency": "USD",
+      "dates": [
+        "7/27/2026 6:40:00 PM",
+        "7/30/2026 11:00:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:49.409242",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "אתונה",
+      "price": 150,
+      "currency": "USD",
+      "dates": [
+        "7/27/2026 11:00:00 PM",
+        "7/29/2026 9:00:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:49.441741",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "אלבניה",
+      "price": 150,
+      "currency": "USD",
+      "dates": [
+        "7/27/2026 11:20:00 PM",
+        "7/29/2026 10:30:00 PM"
+      ],
+      "scraped_at": "2026-07-26T23:15:49.470757",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "לרנקה",
+      "price": 100,
+      "currency": "USD",
+      "dates": [
+        "7/28/2026 12:15:00 AM",
+        "7/29/2026 8:20:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:49.494100",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "ברצלונה",
+      "price": 150,
+      "currency": "USD",
+      "dates": [
+        "7/28/2026 5:20:00 PM",
+        "8/2/2026 7:40:00 PM"
+      ],
+      "scraped_at": "2026-07-26T23:15:49.513358",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "רודוס",
+      "price": 100,
+      "currency": "USD",
+      "dates": [
+        "7/28/2026 3:55:00 PM",
+        "7/30/2026 10:30:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:49.530938",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "כרתים",
+      "price": 150,
+      "currency": "USD",
+      "dates": [
+        "7/28/2026 4:35:00 PM",
+        "7/30/2026 11:00:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:49.547995",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "לרנקה",
+      "price": 100,
+      "currency": "USD",
+      "dates": [
+        "7/28/2026 9:25:00 PM",
+        "7/30/2026 8:20:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:49.565088",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "אתונה",
+      "price": 150,
+      "currency": "USD",
+      "dates": [
+        "7/28/2026 11:20:00 PM",
+        "8/2/2026 10:45:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:49.582051",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "רודוס",
+      "price": 100,
+      "currency": "USD",
+      "dates": [
+        "7/27/2026 4:50:00 PM",
+        "7/30/2026 10:30:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:49.598769",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "רודוס",
+      "price": 100,
+      "currency": "USD",
+      "dates": [
+        "7/27/2026 4:50:00 PM",
+        "7/30/2026 10:30:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:49.615951",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "רודוס",
+      "price": 100,
+      "currency": "USD",
+      "dates": [
+        "7/27/2026 4:50:00 PM",
+        "7/30/2026 10:30:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:49.636914",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "רודוס",
+      "price": 100,
+      "currency": "USD",
+      "dates": [
+        "7/27/2026 4:50:00 PM",
+        "8/1/2026 10:30:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:49.657079",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "רודוס",
+      "price": 100,
+      "currency": "USD",
+      "dates": [
+        "7/27/2026 4:50:00 PM",
+        "8/1/2026 10:30:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:49.680694",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "רודוס",
+      "price": 100,
+      "currency": "USD",
+      "dates": [
+        "7/27/2026 4:50:00 PM",
+        "8/1/2026 10:30:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:49.699372",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "רודוס",
+      "price": 100,
+      "currency": "USD",
+      "dates": [
+        "7/27/2026 4:50:00 PM",
+        "8/1/2026 10:30:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:49.723991",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "קורפו",
+      "price": 150,
+      "currency": "USD",
+      "dates": [
+        "7/27/2026 7:20:00 PM",
+        "7/29/2026 11:35:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:49.742499",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "קורפו",
+      "price": 150,
+      "currency": "USD",
+      "dates": [
+        "7/27/2026 7:20:00 PM",
+        "7/30/2026 9:40:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:49.760375",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "קורפו",
+      "price": 150,
+      "currency": "USD",
+      "dates": [
+        "7/27/2026 7:20:00 PM",
+        "7/30/2026 9:40:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:49.779401",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "כרתים",
+      "price": 150,
+      "currency": "USD",
+      "dates": [
+        "7/27/2026 6:40:00 PM",
+        "7/30/2026 11:00:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:49.797354",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "כרתים",
+      "price": 150,
+      "currency": "USD",
+      "dates": [
+        "7/27/2026 6:40:00 PM",
+        "7/30/2026 11:00:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:49.815202",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "כרתים",
+      "price": 150,
+      "currency": "USD",
+      "dates": [
+        "7/27/2026 6:40:00 PM",
+        "7/30/2026 11:00:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:49.833498",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "אתונה",
+      "price": 150,
+      "currency": "USD",
+      "dates": [
+        "7/27/2026 11:00:00 PM",
+        "7/29/2026 9:00:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:49.850570",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "אתונה",
+      "price": 150,
+      "currency": "USD",
+      "dates": [
+        "7/27/2026 11:00:00 PM",
+        "7/29/2026 9:00:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:49.867540",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "אתונה",
+      "price": 150,
+      "currency": "USD",
+      "dates": [
+        "7/27/2026 11:00:00 PM",
+        "7/29/2026 9:00:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:49.884754",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "אתונה",
+      "price": 150,
+      "currency": "USD",
+      "dates": [
+        "7/27/2026 11:00:00 PM",
+        "7/29/2026 9:00:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:49.901870",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "אתונה",
+      "price": 150,
+      "currency": "USD",
+      "dates": [
+        "7/27/2026 11:00:00 PM",
+        "7/29/2026 9:00:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:49.920348",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "אתונה",
+      "price": 150,
+      "currency": "USD",
+      "dates": [
+        "7/27/2026 11:00:00 PM",
+        "7/29/2026 9:00:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:49.947021",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "אתונה",
+      "price": 150,
+      "currency": "USD",
+      "dates": [
+        "7/27/2026 11:00:00 PM",
+        "7/29/2026 9:00:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:50.028891",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "אתונה",
+      "price": 150,
+      "currency": "USD",
+      "dates": [
+        "7/27/2026 11:00:00 PM",
+        "7/29/2026 9:00:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:50.046236",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "אתונה",
+      "price": 150,
+      "currency": "USD",
+      "dates": [
+        "7/27/2026 11:00:00 PM",
+        "7/29/2026 9:00:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:50.067908",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "אתונה",
+      "price": 150,
+      "currency": "USD",
+      "dates": [
+        "7/27/2026 11:00:00 PM",
+        "8/2/2026 10:45:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:50.102158",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "אתונה",
+      "price": 150,
+      "currency": "USD",
+      "dates": [
+        "7/27/2026 11:00:00 PM",
+        "8/2/2026 10:45:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:50.131329",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "אתונה",
+      "price": 150,
+      "currency": "USD",
+      "dates": [
+        "7/27/2026 11:00:00 PM",
+        "8/2/2026 10:45:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:50.148402",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "אתונה",
+      "price": 150,
+      "currency": "USD",
+      "dates": [
+        "7/27/2026 11:00:00 PM",
+        "8/2/2026 10:45:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:50.169490",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "אתונה",
+      "price": 150,
+      "currency": "USD",
+      "dates": [
+        "7/27/2026 11:00:00 PM",
+        "8/2/2026 10:45:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:50.186444",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "אתונה",
+      "price": 150,
+      "currency": "USD",
+      "dates": [
+        "7/27/2026 11:00:00 PM",
+        "8/2/2026 10:45:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:50.213340",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "אתונה",
+      "price": 150,
+      "currency": "USD",
+      "dates": [
+        "7/27/2026 11:00:00 PM",
+        "8/2/2026 10:45:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:50.248137",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "אתונה",
+      "price": 150,
+      "currency": "USD",
+      "dates": [
+        "7/27/2026 11:00:00 PM",
+        "8/2/2026 10:45:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:50.263234",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "אתונה",
+      "price": 150,
+      "currency": "USD",
+      "dates": [
+        "7/27/2026 11:00:00 PM",
+        "8/2/2026 10:45:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:50.278070",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "אתונה",
+      "price": 150,
+      "currency": "USD",
+      "dates": [
+        "7/27/2026 11:00:00 PM",
+        "8/2/2026 10:45:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:50.292685",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "אלבניה",
+      "price": 150,
+      "currency": "USD",
+      "dates": [
+        "7/27/2026 11:20:00 PM",
+        "7/31/2026 10:30:00 PM"
+      ],
+      "scraped_at": "2026-07-26T23:15:50.307325",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "לרנקה",
+      "price": 100,
+      "currency": "USD",
+      "dates": [
+        "7/28/2026 12:15:00 AM",
+        "7/29/2026 8:20:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:50.322013",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "לרנקה",
+      "price": 100,
+      "currency": "USD",
+      "dates": [
+        "7/28/2026 12:15:00 AM",
+        "7/29/2026 8:20:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:50.336549",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "לרנקה",
+      "price": 100,
+      "currency": "USD",
+      "dates": [
+        "7/28/2026 12:15:00 AM",
+        "7/29/2026 8:20:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:50.351020",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "לרנקה",
+      "price": 100,
+      "currency": "USD",
+      "dates": [
+        "7/28/2026 12:15:00 AM",
+        "7/29/2026 8:20:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:50.365452",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "לרנקה",
+      "price": 100,
+      "currency": "USD",
+      "dates": [
+        "7/28/2026 12:15:00 AM",
+        "7/29/2026 8:20:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:50.379723",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "לרנקה",
+      "price": 100,
+      "currency": "USD",
+      "dates": [
+        "7/28/2026 12:15:00 AM",
+        "7/29/2026 8:20:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:50.394102",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "לרנקה",
+      "price": 100,
+      "currency": "USD",
+      "dates": [
+        "7/28/2026 12:15:00 AM",
+        "7/29/2026 8:20:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:50.408443",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "לרנקה",
+      "price": 100,
+      "currency": "USD",
+      "dates": [
+        "7/28/2026 12:15:00 AM",
+        "7/29/2026 8:20:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:50.422746",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "לרנקה",
+      "price": 100,
+      "currency": "USD",
+      "dates": [
+        "7/28/2026 12:15:00 AM",
+        "7/29/2026 8:20:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:50.437264",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "לרנקה",
+      "price": 100,
+      "currency": "USD",
+      "dates": [
+        "7/28/2026 12:15:00 AM",
+        "7/30/2026 8:20:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:50.451672",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "לרנקה",
+      "price": 100,
+      "currency": "USD",
+      "dates": [
+        "7/28/2026 12:15:00 AM",
+        "7/30/2026 8:20:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:50.466063",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "לרנקה",
+      "price": 100,
+      "currency": "USD",
+      "dates": [
+        "7/28/2026 12:15:00 AM",
+        "7/30/2026 8:20:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:50.480337",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "לרנקה",
+      "price": 100,
+      "currency": "USD",
+      "dates": [
+        "7/28/2026 12:15:00 AM",
+        "7/30/2026 8:20:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:50.494595",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "לרנקה",
+      "price": 100,
+      "currency": "USD",
+      "dates": [
+        "7/28/2026 12:15:00 AM",
+        "7/30/2026 8:20:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:50.509107",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "לרנקה",
+      "price": 100,
+      "currency": "USD",
+      "dates": [
+        "7/28/2026 12:15:00 AM",
+        "7/30/2026 8:20:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:50.523455",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "לרנקה",
+      "price": 100,
+      "currency": "USD",
+      "dates": [
+        "7/28/2026 12:15:00 AM",
+        "7/30/2026 8:20:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:50.537790",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "לרנקה",
+      "price": 100,
+      "currency": "USD",
+      "dates": [
+        "7/28/2026 12:15:00 AM",
+        "7/30/2026 8:20:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:50.552120",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "לרנקה",
+      "price": 100,
+      "currency": "USD",
+      "dates": [
+        "7/28/2026 12:15:00 AM",
+        "7/30/2026 8:20:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:50.566543",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "לרנקה",
+      "price": 100,
+      "currency": "USD",
+      "dates": [
+        "7/28/2026 12:15:00 AM",
+        "7/30/2026 8:20:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:50.581089",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "לרנקה",
+      "price": 100,
+      "currency": "USD",
+      "dates": [
+        "7/28/2026 12:15:00 AM",
+        "8/1/2026 8:20:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:50.595606",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "לרנקה",
+      "price": 100,
+      "currency": "USD",
+      "dates": [
+        "7/28/2026 12:15:00 AM",
+        "8/1/2026 8:20:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:50.609975",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "לרנקה",
+      "price": 100,
+      "currency": "USD",
+      "dates": [
+        "7/28/2026 12:15:00 AM",
+        "8/1/2026 8:20:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:50.624324",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "לרנקה",
+      "price": 100,
+      "currency": "USD",
+      "dates": [
+        "7/28/2026 12:15:00 AM",
+        "8/1/2026 8:20:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:50.638566",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "לרנקה",
+      "price": 100,
+      "currency": "USD",
+      "dates": [
+        "7/28/2026 12:15:00 AM",
+        "8/1/2026 8:20:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:50.653009",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "לרנקה",
+      "price": 100,
+      "currency": "USD",
+      "dates": [
+        "7/28/2026 12:15:00 AM",
+        "8/1/2026 8:20:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:50.667395",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "לרנקה",
+      "price": 100,
+      "currency": "USD",
+      "dates": [
+        "7/28/2026 12:15:00 AM",
+        "8/1/2026 8:20:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:50.681693",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "לרנקה",
+      "price": 100,
+      "currency": "USD",
+      "dates": [
+        "7/28/2026 12:15:00 AM",
+        "8/1/2026 8:20:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:50.696203",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "לרנקה",
+      "price": 100,
+      "currency": "USD",
+      "dates": [
+        "7/28/2026 12:15:00 AM",
+        "8/1/2026 8:20:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:50.710598",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "לרנקה",
+      "price": 100,
+      "currency": "USD",
+      "dates": [
+        "7/28/2026 12:15:00 AM",
+        "8/1/2026 8:20:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:50.724773",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "ברצלונה",
+      "price": 150,
+      "currency": "USD",
+      "dates": [
+        "7/28/2026 5:20:00 PM",
+        "8/2/2026 7:40:00 PM"
+      ],
+      "scraped_at": "2026-07-26T23:15:50.738934",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "רודוס",
+      "price": 100,
+      "currency": "USD",
+      "dates": [
+        "7/28/2026 3:55:00 PM",
+        "7/30/2026 10:30:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:50.753400",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "רודוס",
+      "price": 100,
+      "currency": "USD",
+      "dates": [
+        "7/28/2026 3:55:00 PM",
+        "7/30/2026 10:30:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:50.767681",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "רודוס",
+      "price": 100,
+      "currency": "USD",
+      "dates": [
+        "7/28/2026 3:55:00 PM",
+        "7/30/2026 10:30:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:50.782061",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "רודוס",
+      "price": 100,
+      "currency": "USD",
+      "dates": [
+        "7/28/2026 3:55:00 PM",
+        "8/1/2026 10:30:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:50.796094",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "רודוס",
+      "price": 100,
+      "currency": "USD",
+      "dates": [
+        "7/28/2026 3:55:00 PM",
+        "8/1/2026 10:30:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:50.810534",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "רודוס",
+      "price": 100,
+      "currency": "USD",
+      "dates": [
+        "7/28/2026 3:55:00 PM",
+        "8/1/2026 10:30:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:50.824839",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "רודוס",
+      "price": 100,
+      "currency": "USD",
+      "dates": [
+        "7/28/2026 3:55:00 PM",
+        "8/1/2026 10:30:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:50.839262",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "כרתים",
+      "price": 150,
+      "currency": "USD",
+      "dates": [
+        "7/28/2026 4:35:00 PM",
+        "7/30/2026 11:00:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:50.853571",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "כרתים",
+      "price": 150,
+      "currency": "USD",
+      "dates": [
+        "7/28/2026 4:35:00 PM",
+        "7/30/2026 11:00:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:50.867974",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "כרתים",
+      "price": 150,
+      "currency": "USD",
+      "dates": [
+        "7/28/2026 4:35:00 PM",
+        "7/30/2026 11:00:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:50.882286",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "לרנקה",
+      "price": 100,
+      "currency": "USD",
+      "dates": [
+        "7/28/2026 9:25:00 PM",
+        "7/30/2026 8:20:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:50.897156",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "לרנקה",
+      "price": 100,
+      "currency": "USD",
+      "dates": [
+        "7/28/2026 9:25:00 PM",
+        "7/30/2026 8:20:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:50.911561",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "לרנקה",
+      "price": 100,
+      "currency": "USD",
+      "dates": [
+        "7/28/2026 9:25:00 PM",
+        "7/30/2026 8:20:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:50.925971",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "לרנקה",
+      "price": 100,
+      "currency": "USD",
+      "dates": [
+        "7/28/2026 9:25:00 PM",
+        "7/30/2026 8:20:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:50.940485",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "לרנקה",
+      "price": 100,
+      "currency": "USD",
+      "dates": [
+        "7/28/2026 9:25:00 PM",
+        "7/30/2026 8:20:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:50.955667",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "לרנקה",
+      "price": 100,
+      "currency": "USD",
+      "dates": [
+        "7/28/2026 9:25:00 PM",
+        "7/30/2026 8:20:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:50.970241",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "לרנקה",
+      "price": 100,
+      "currency": "USD",
+      "dates": [
+        "7/28/2026 9:25:00 PM",
+        "7/30/2026 8:20:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:50.984556",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "לרנקה",
+      "price": 100,
+      "currency": "USD",
+      "dates": [
+        "7/28/2026 9:25:00 PM",
+        "7/30/2026 8:20:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:50.998939",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "לרנקה",
+      "price": 100,
+      "currency": "USD",
+      "dates": [
+        "7/28/2026 9:25:00 PM",
+        "7/30/2026 8:20:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:51.013296",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "לרנקה",
+      "price": 100,
+      "currency": "USD",
+      "dates": [
+        "7/28/2026 9:25:00 PM",
+        "8/1/2026 8:20:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:51.027602",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "לרנקה",
+      "price": 100,
+      "currency": "USD",
+      "dates": [
+        "7/28/2026 9:25:00 PM",
+        "8/1/2026 8:20:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:51.041932",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "לרנקה",
+      "price": 100,
+      "currency": "USD",
+      "dates": [
+        "7/28/2026 9:25:00 PM",
+        "8/1/2026 8:20:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:51.056217",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "לרנקה",
+      "price": 100,
+      "currency": "USD",
+      "dates": [
+        "7/28/2026 9:25:00 PM",
+        "8/1/2026 8:20:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:51.070518",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "לרנקה",
+      "price": 100,
+      "currency": "USD",
+      "dates": [
+        "7/28/2026 9:25:00 PM",
+        "8/1/2026 8:20:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:51.084907",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "לרנקה",
+      "price": 100,
+      "currency": "USD",
+      "dates": [
+        "7/28/2026 9:25:00 PM",
+        "8/1/2026 8:20:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:51.099457",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "לרנקה",
+      "price": 100,
+      "currency": "USD",
+      "dates": [
+        "7/28/2026 9:25:00 PM",
+        "8/1/2026 8:20:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:51.113745",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "לרנקה",
+      "price": 100,
+      "currency": "USD",
+      "dates": [
+        "7/28/2026 9:25:00 PM",
+        "8/1/2026 8:20:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:51.128012",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "לרנקה",
+      "price": 100,
+      "currency": "USD",
+      "dates": [
+        "7/28/2026 9:25:00 PM",
+        "8/1/2026 8:20:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:51.142321",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "לרנקה",
+      "price": 100,
+      "currency": "USD",
+      "dates": [
+        "7/28/2026 9:25:00 PM",
+        "8/1/2026 8:20:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:51.156992",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "אתונה",
+      "price": 150,
+      "currency": "USD",
+      "dates": [
+        "7/28/2026 11:20:00 PM",
+        "8/2/2026 10:45:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:51.171524",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "אתונה",
+      "price": 150,
+      "currency": "USD",
+      "dates": [
+        "7/28/2026 11:20:00 PM",
+        "8/2/2026 10:45:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:51.187168",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "אתונה",
+      "price": 150,
+      "currency": "USD",
+      "dates": [
+        "7/28/2026 11:20:00 PM",
+        "8/2/2026 10:45:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:51.201606",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "אתונה",
+      "price": 150,
+      "currency": "USD",
+      "dates": [
+        "7/28/2026 11:20:00 PM",
+        "8/2/2026 10:45:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:51.216143",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "אתונה",
+      "price": 150,
+      "currency": "USD",
+      "dates": [
+        "7/28/2026 11:20:00 PM",
+        "8/2/2026 10:45:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:51.230518",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "אתונה",
+      "price": 150,
+      "currency": "USD",
+      "dates": [
+        "7/28/2026 11:20:00 PM",
+        "8/2/2026 10:45:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:51.244616",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "אתונה",
+      "price": 150,
+      "currency": "USD",
+      "dates": [
+        "7/28/2026 11:20:00 PM",
+        "8/2/2026 10:45:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:51.259028",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "אתונה",
+      "price": 150,
+      "currency": "USD",
+      "dates": [
+        "7/28/2026 11:20:00 PM",
+        "8/2/2026 10:45:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:51.304157",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "אתונה",
+      "price": 150,
+      "currency": "USD",
+      "dates": [
+        "7/28/2026 11:20:00 PM",
+        "8/2/2026 10:45:00 AM"
+      ],
+      "scraped_at": "2026-07-26T23:15:51.319938",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    }
+  ],
+  "last_check": "2026-07-26T23:15:51.331801",
+  "total_flights_found": 112,
+  "new_flights_count": 112
 }
