@@ -8,24 +8,12 @@
         "7/26/2026 7:00:00 PM",
         "8/2/2026 8:00:00 PM"
       ],
-      "scraped_at": "2026-07-26T10:30:49.333037",
+      "scraped_at": "2026-07-26T10:46:05.241250",
       "url": "https://www.tustus.co.il/Arkia/Home"
     }
   ],
-  "new_flights": [
-    {
-      "destination": "פודגוריצה",
-      "price": 150,
-      "currency": "USD",
-      "dates": [
-        "7/26/2026 7:00:00 PM",
-        "8/2/2026 8:00:00 PM"
-      ],
-      "scraped_at": "2026-07-26T10:30:49.333037",
-      "url": "https://www.tustus.co.il/Arkia/Home"
-    }
-  ],
-  "last_check": "2026-07-26T10:30:49.333340",
+  "new_flights": [],
+  "last_check": "2026-07-26T10:46:05.241414",
   "total_flights_found": 1,
-  "new_flights_count": 1
+  "new_flights_count": 0
 }
