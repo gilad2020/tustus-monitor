@@ -112,36 +112,46 @@ class FlightMonitor:
     
     def check_date_validity(self, dates: List[str]) -> bool:
         """בדיקה שהתאריכים נמצאים בטווח הרלוונטי לטיסות רגע אחרון"""
+        import re
         try:
             today = datetime.now().date()
             max_date = today + timedelta(days=14)  # טיסות עד 14 ימים קדימה
-            
+
+            any_parsed = False
             for date_str in dates:
-                # ניסיון לפרסר תאריכים בפורמטים שונים
-                parsed_date = self.parse_date(date_str)
-                if parsed_date and today <= parsed_date <= max_date:
-                    return True
-            
-            return False
+                # חילוץ תבניות dd/mm מתוך טקסט חופשי
+                for token in re.findall(r'\d{1,2}[./]\d{1,2}(?:[./]\d{2,4})?', date_str):
+                    parsed_date = self.parse_date(token)
+                    if parsed_date:
+                        any_parsed = True
+                        if today <= parsed_date <= max_date:
+                            return True
+
+            # אם לא הצלחנו לפרסר אף תאריך, נשאיר את הטיסה
+            return not any_parsed
         except:
             # אם לא ניתן לפרסר, נשאיר את הטיסה
             return True
-    
+
     def parse_date(self, date_str: str) -> datetime.date:
         """ניסיון לפרסר תאריך מסטרינג"""
         try:
             # פורמטים נפוצים
             formats = [
                 '%d/%m/%Y', '%d.%m.%Y', '%d-%m-%Y',
-                '%d/%m/%y', '%d.%m.%y', '%d-%m-%y'
+                '%d/%m/%y', '%d.%m.%y', '%d-%m-%y',
+                '%d/%m', '%d.%m'
             ]
-            
+
             for fmt in formats:
                 try:
-                    return datetime.strptime(date_str.strip(), fmt).date()
+                    parsed = datetime.strptime(date_str.strip(), fmt)
+                    if fmt in ('%d/%m', '%d.%m'):
+                        parsed = parsed.replace(year=datetime.now().year)
+                    return parsed.date()
                 except:
                     continue
-            
+
             return None
         except:
             return None
