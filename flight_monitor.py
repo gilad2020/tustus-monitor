@@ -80,35 +80,8 @@ class FlightMonitor:
         return price_changes
     
     def filter_relevant_flights(self, flights: List[Dict]) -> List[Dict]:
-        """סינון טיסות רלוונטיות - מותאם לטיסות רגע אחרון"""
-        relevant_flights = []
-        
-        for flight in flights:
-            # בדיקה שיש יעד
-            if not flight.get('destination'):
-                continue
-            
-            # בדיקת תוקף (טיסות לימים הקרובים בלבד)
-            scraped_at = flight.get('scraped_at')
-            if scraped_at:
-                try:
-                    scraped_time = datetime.fromisoformat(scraped_at)
-                    if datetime.now() - scraped_time > timedelta(hours=MAX_FLIGHT_AGE_HOURS):
-                        continue
-                except:
-                    pass
-            
-            # סינון טיסות שכבר עברו או רק להיום
-            dates = flight.get('dates', [])
-            if dates:
-                # ניסיון לפרסר תאריכים ולוודא שהם בטווח הרלוונטי
-                is_valid_date_range = self.check_date_validity(dates)
-                if not is_valid_date_range:
-                    continue
-            
-            relevant_flights.append(flight)
-        
-        return relevant_flights
+        """סינון טיסות רלוונטיות"""
+        return [f for f in flights if f.get('destination')]
     
     def check_date_validity(self, dates: List[str]) -> bool:
         """בדיקה שהתאריכים נמצאים בטווח הרלוונטי לטיסות רגע אחרון"""
