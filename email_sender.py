@@ -33,75 +33,78 @@ class EmailSender:
         if not self.username or not self.password:
             logging.warning("לא הוגדרו נתוני מייל - שליחת מיילים לא תעבוד")
     
+    def format_date(self, date_str: str) -> str:
+        """המרת תאריך לפורמט: יום בשבוע בעברית + DD/MM/YYYY + שעה 24 שעות"""
+        from datetime import datetime
+        HEBREW_DAYS = {0: 'שני', 1: 'שלישי', 2: 'רביעי', 3: 'חמישי', 4: 'שישי', 5: 'שבת', 6: 'ראשון'}
+        formats = ['%m/%d/%Y %I:%M:%S %p', '%m/%d/%Y %H:%M:%S', '%m/%d/%Y %I:%M %p', '%d/%m/%Y %H:%M', '%d/%m/%Y']
+        for fmt in formats:
+            try:
+                dt = datetime.strptime(date_str.strip(), fmt)
+                day_name = HEBREW_DAYS[dt.weekday()]
+                return f"יום {day_name} {dt.strftime('%d/%m/%Y')} {dt.strftime('%H:%M')}"
+            except:
+                continue
+        return date_str
+
     def create_flights_html(self, flights: List[Dict], title: str) -> str:
-        """יצירת HTML לטיסות חדשות - מותאם לטיסות רגע אחרון"""
+        """יצירת HTML לטיסות חדשות - מקובצות לפי יעד"""
         if not flights:
             return ""
-        
+
+        # קיבוץ לפי יעד
+        from collections import defaultdict
+        by_dest = defaultdict(list)
+        for flight in flights:
+            by_dest[flight.get('destination', 'לא זמין')].append(flight)
+
         html = f"""
         <div style="margin: 20px 0;">
             <h2 style="color: #2c5aa0; border-bottom: 2px solid #2c5aa0; padding-bottom: 10px;">
                 {title}
             </h2>
-            <div style="display: grid; gap: 15px;">
+            <div style="display: grid; gap: 20px;">
         """
-        
-        for flight in flights:
-            destination = flight.get('destination', 'לא זמין')
-            price = flight.get('price', 'מחיר קבוע')
-            currency = flight.get('currency', '₪')
-            dates = flight.get('dates', [])
-            full_text = flight.get('full_text', '')[:200] + '...' if len(flight.get('full_text', '')) > 200 else flight.get('full_text', '')
 
-            # עיצוב תאריכים
-            if dates:
-                dates_str = ', '.join(dates)
-                dates_display = f"📅 תאריכי יציאה: {dates_str}"
-            else:
-                dates_display = "📅 תאריכים יפורסמו בקרוב"
-
-            # עיצוב מחיר
-            if isinstance(price, (int, float)):
+        for destination, dest_flights in sorted(by_dest.items()):
+            currency = dest_flights[0].get('currency', '$')
+            rows_html = ''
+            for flight in sorted(dest_flights, key=lambda f: f.get('price') or 0):
+                price = flight.get('price', '')
                 symbol = '$' if currency == 'USD' else currency
-                price_display = f"{symbol}{price}"
-            else:
-                price_display = "מחיר קבוע"
-            
+                price_display = f"{symbol}{price}" if isinstance(price, (int, float)) else 'לא זמין'
+                dates = flight.get('dates') or []
+                formatted = [self.format_date(d) for d in dates if d]
+                depart = formatted[0] if len(formatted) > 0 else '—'
+                ret    = formatted[1] if len(formatted) > 1 else '—'
+                rows_html += f"""
+                    <tr style="border-bottom: 1px solid #e9ecef;">
+                        <td style="padding: 8px 12px; color: #495057;">🛫 {depart}</td>
+                        <td style="padding: 8px 12px; color: #495057;">🛬 {ret}</td>
+                        <td style="padding: 8px 12px; font-weight: bold; color: #28a745; white-space: nowrap;">{price_display}</td>
+                    </tr>
+                """
+
             html += f"""
-                <div style="
-                    border: 1px solid #ddd; 
-                    border-radius: 8px; 
-                    padding: 15px; 
-                    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
-                    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-                ">
-                    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
-                        <h3 style="color: #495057; margin: 0; font-size: 18px;">
-                            ✈️ {destination}
-                        </h3>
-                        <span style="
-                            background: #28a745; 
-                            color: white; 
-                            padding: 5px 15px; 
-                            border-radius: 20px; 
-                            font-weight: bold;
-                            font-size: 16px;
-                        ">
-                            🆕 חדש!
-                        </span>
+                <div style="border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+                    <div style="background: linear-gradient(135deg, #2c5aa0, #4a90d9); color: white; padding: 12px 16px;">
+                        <h3 style="margin: 0; font-size: 18px;">✈️ {destination}</h3>
                     </div>
-                    <div style="color: #6c757d; margin-bottom: 8px;">
-                        {dates_display}
-                    </div>
-                    <div style="color: #6c757d; margin-bottom: 8px;">
-                        💰 מחיר: {price_display}
-                    </div>
-                    <div style="color: #6c757d; font-size: 14px; line-height: 1.4;">
-                        {full_text}
-                    </div>
+                    <table style="width: 100%; border-collapse: collapse; background: white; font-size: 14px;">
+                        <thead>
+                            <tr style="background: #f8f9fa; color: #6c757d; font-size: 12px;">
+                                <th style="padding: 8px 12px; text-align: right; font-weight: normal;">יציאה</th>
+                                <th style="padding: 8px 12px; text-align: right; font-weight: normal;">חזרה</th>
+                                <th style="padding: 8px 12px; text-align: right; font-weight: normal;">מחיר</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {rows_html}
+                        </tbody>
+                    </table>
                 </div>
             """
-        
+
         html += "</div></div>"
         return html
     
