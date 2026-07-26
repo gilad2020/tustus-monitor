@@ -49,18 +49,23 @@ class EmailSender:
         for flight in flights:
             destination = flight.get('destination', 'לא זמין')
             price = flight.get('price', 'מחיר קבוע')
+            currency = flight.get('currency', '₪')
             dates = flight.get('dates', [])
             full_text = flight.get('full_text', '')[:200] + '...' if len(flight.get('full_text', '')) > 200 else flight.get('full_text', '')
-            
+
             # עיצוב תאריכים
             if dates:
                 dates_str = ', '.join(dates)
                 dates_display = f"📅 תאריכי יציאה: {dates_str}"
             else:
                 dates_display = "📅 תאריכים יפורסמו בקרוב"
-            
+
             # עיצוב מחיר
-            price_display = f"{price}₪" if isinstance(price, (int, float)) else "מחיר קבוע"
+            if isinstance(price, (int, float)):
+                symbol = '$' if currency == 'USD' else currency
+                price_display = f"{symbol}{price}"
+            else:
+                price_display = "מחיר קבוע"
             
             html += f"""
                 <div style="
