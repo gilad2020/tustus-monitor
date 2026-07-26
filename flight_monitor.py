@@ -119,7 +119,14 @@ class FlightMonitor:
 
             any_parsed = False
             for date_str in dates:
-                # חילוץ תבניות dd/mm מתוך טקסט חופשי
+                parsed_date = self.parse_date(date_str)
+                if parsed_date:
+                    any_parsed = True
+                    if today <= parsed_date <= max_date:
+                        return True
+                    continue
+
+                # גיבוי: חילוץ תבניות dd/mm מתוך טקסט חופשי
                 for token in re.findall(r'\d{1,2}[./]\d{1,2}(?:[./]\d{2,4})?', date_str):
                     parsed_date = self.parse_date(token)
                     if parsed_date:
@@ -134,10 +141,12 @@ class FlightMonitor:
             return True
 
     def parse_date(self, date_str: str) -> datetime.date:
-        """ניסיון לפרסר תאריך מסטרינג"""
+        """ניסיון לפרסר תאריך מסטרינג - התאריך הגולמי מהאתר בפורמט M/D/YYYY H:MM:SS AM/PM"""
         try:
-            # פורמטים נפוצים
+            # פורמטים נפוצים - כולל הפורמט המלא שהאתר מחזיר בפועל (חודש/יום/שנה)
             formats = [
+                '%m/%d/%Y %I:%M:%S %p', '%m/%d/%Y %H:%M:%S', '%m/%d/%Y %I:%M %p',
+                '%m/%d/%Y',
                 '%d/%m/%Y', '%d.%m.%Y', '%d-%m-%Y',
                 '%d/%m/%y', '%d.%m.%y', '%d-%m-%y',
                 '%d/%m', '%d.%m'
