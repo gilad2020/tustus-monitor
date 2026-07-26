@@ -8,7 +8,18 @@
         "7/27/2026 11:20:00 PM",
         "7/29/2026 10:30:00 PM"
       ],
-      "scraped_at": "2026-07-26T13:45:41.965668",
+      "scraped_at": "2026-07-26T14:01:06.699351",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "אלבניה",
+      "price": 150,
+      "currency": "USD",
+      "dates": [
+        "7/27/2026 11:20:00 PM",
+        "7/31/2026 10:30:00 PM"
+      ],
+      "scraped_at": "2026-07-26T14:01:06.713147",
       "url": "https://www.tustus.co.il/Arkia/Home"
     }
   ],
@@ -19,13 +30,13 @@
       "currency": "USD",
       "dates": [
         "7/27/2026 11:20:00 PM",
-        "7/29/2026 10:30:00 PM"
+        "7/31/2026 10:30:00 PM"
       ],
-      "scraped_at": "2026-07-26T13:45:41.965668",
+      "scraped_at": "2026-07-26T14:01:06.713147",
       "url": "https://www.tustus.co.il/Arkia/Home"
     }
   ],
-  "last_check": "2026-07-26T13:45:41.965919",
-  "total_flights_found": 1,
+  "last_check": "2026-07-26T14:01:06.713341",
+  "total_flights_found": 2,
   "new_flights_count": 1
 }
