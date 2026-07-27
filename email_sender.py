@@ -33,18 +33,24 @@ class EmailSender:
         if not self.username or not self.password:
             logging.warning("לא הוגדרו נתוני מייל - שליחת מיילים לא תעבוד")
     
-    def format_date(self, date_str: str) -> str:
-        """המרת תאריך לפורמט: יום בשבוע בעברית + DD/MM/YYYY + שעה 24 שעות"""
+    def parse_raw_date(self, date_str: str):
+        """פרסור תאריך גולמי לאובייקט datetime, או None אם לא ניתן לפרסר"""
         from datetime import datetime
-        HEBREW_DAYS = {0: 'שני', 1: 'שלישי', 2: 'רביעי', 3: 'חמישי', 4: 'שישי', 5: 'שבת', 6: 'ראשון'}
         formats = ['%m/%d/%Y %I:%M:%S %p', '%m/%d/%Y %H:%M:%S', '%m/%d/%Y %I:%M %p', '%d/%m/%Y %H:%M', '%d/%m/%Y']
         for fmt in formats:
             try:
-                dt = datetime.strptime(date_str.strip(), fmt)
-                day_name = HEBREW_DAYS[dt.weekday()]
-                return f"יום {day_name} {dt.strftime('%d/%m/%Y')} {dt.strftime('%H:%M')}"
+                return datetime.strptime(date_str.strip(), fmt)
             except:
                 continue
+        return None
+
+    def format_date(self, date_str: str) -> str:
+        """המרת תאריך לפורמט: יום בשבוע בעברית + DD/MM/YYYY + שעה 24 שעות"""
+        HEBREW_DAYS = {0: 'שני', 1: 'שלישי', 2: 'רביעי', 3: 'חמישי', 4: 'שישי', 5: 'שבת', 6: 'ראשון'}
+        dt = self.parse_raw_date(date_str)
+        if dt:
+            day_name = HEBREW_DAYS[dt.weekday()]
+            return f"יום {day_name} {dt.strftime('%d/%m/%Y')} {dt.strftime('%H:%M')}"
         return date_str
 
     def create_flights_html(self, flights: List[Dict], title: str) -> str:
@@ -69,7 +75,12 @@ class EmailSender:
         for destination, dest_flights in sorted(by_dest.items()):
             currency = dest_flights[0].get('currency', '$')
             rows_html = ''
-            for flight in sorted(dest_flights, key=lambda f: f.get('price') or 0):
+            def _departure_sort_key(f):
+                dates = f.get('dates') or []
+                dt = self.parse_raw_date(dates[0]) if dates else None
+                return dt or datetime.max
+
+            for flight in sorted(dest_flights, key=_departure_sort_key):
                 price = flight.get('price', '')
                 symbol = '$' if currency == 'USD' else currency
                 price_display = f"{symbol}{price}" if isinstance(price, (int, float)) else 'לא זמין'
