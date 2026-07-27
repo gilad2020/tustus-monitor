@@ -69,6 +69,24 @@ class FlightMonitor:
         
         return new_flights
     
+    def merge_known_flights(self, current_flights: List[Dict]) -> List[Dict]:
+        """מיזוג הטיסות הנוכחיות עם היסטוריית הטיסות הידועות, וניקוי טיסות שתאריכן עבר"""
+        known = {}
+        for flight in self.previous_flights.get('flights', []):
+            known[self.create_flight_signature(flight)] = flight
+        for flight in current_flights:
+            known[self.create_flight_signature(flight)] = flight
+
+        merged = list(known.values())
+
+        # ניקוי טיסות שתאריכן כבר עבר, כדי שההיסטוריה לא תגדל ללא הגבלה
+        pruned = []
+        for flight in merged:
+            dates = flight.get('dates') or []
+            if not dates or self.check_date_validity(dates):
+                pruned.append(flight)
+        return pruned
+
     def find_price_changes(self, current_flights: List[Dict]) -> List[Dict]:
         """זיהוי שינויי מחירים - מושבת כי המחירים קבועים"""
         if IGNORE_PRICE_CHANGES:
@@ -158,12 +176,15 @@ class FlightMonitor:
             if not IGNORE_PRICE_CHANGES:
                 price_changes = self.find_price_changes(relevant_flights)
 
+            # מיזוג עם היסטוריית הטיסות הידועות, כדי לא לשכוח טיסות שכבר דווחו
+            known_flights = self.merge_known_flights(relevant_flights)
+
             # שמירת נתונים
-            self.save_flights_data(relevant_flights, new_flights)
+            self.save_flights_data(known_flights, new_flights)
 
             # עדכון נתונים פנימיים
             self.previous_flights = {
-                'flights': relevant_flights,
+                'flights': known_flights,
                 'last_check': datetime.now().isoformat()
             }
 
