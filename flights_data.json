@@ -294,57 +294,12 @@
         "7/30/2026 6:30:00 AM",
         "8/5/2026 10:30:00 AM"
       ],
-      "scraped_at": "2026-07-29T12:45:46.082727",
+      "scraped_at": "2026-07-29T13:00:58.377552",
       "url": "https://www.tustus.co.il/Arkia/Home"
     }
   ],
-  "new_flights": [
-    {
-      "destination": "רודוס",
-      "price": 100,
-      "currency": "USD",
-      "dates": [
-        "7/30/2026 6:30:00 AM",
-        "8/5/2026 10:30:00 AM"
-      ],
-      "scraped_at": "2026-07-29T12:45:46.031763",
-      "url": "https://www.tustus.co.il/Arkia/Home"
-    },
-    {
-      "destination": "רודוס",
-      "price": 100,
-      "currency": "USD",
-      "dates": [
-        "7/30/2026 6:30:00 AM",
-        "8/5/2026 10:30:00 AM"
-      ],
-      "scraped_at": "2026-07-29T12:45:46.051352",
-      "url": "https://www.tustus.co.il/Arkia/Home"
-    },
-    {
-      "destination": "רודוס",
-      "price": 100,
-      "currency": "USD",
-      "dates": [
-        "7/30/2026 6:30:00 AM",
-        "8/5/2026 10:30:00 AM"
-      ],
-      "scraped_at": "2026-07-29T12:45:46.066834",
-      "url": "https://www.tustus.co.il/Arkia/Home"
-    },
-    {
-      "destination": "רודוס",
-      "price": 100,
-      "currency": "USD",
-      "dates": [
-        "7/30/2026 6:30:00 AM",
-        "8/5/2026 10:30:00 AM"
-      ],
-      "scraped_at": "2026-07-29T12:45:46.082727",
-      "url": "https://www.tustus.co.il/Arkia/Home"
-    }
-  ],
-  "last_check": "2026-07-29T12:45:46.103104",
+  "new_flights": [],
+  "last_check": "2026-07-29T13:00:58.385524",
   "total_flights_found": 27,
-  "new_flights_count": 4
+  "new_flights_count": 0
 }
