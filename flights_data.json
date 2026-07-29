@@ -294,12 +294,90 @@
         "7/30/2026 6:30:00 AM",
         "8/5/2026 10:30:00 AM"
       ],
-      "scraped_at": "2026-07-29T13:30:42.703852",
+      "scraped_at": "2026-07-29T13:45:50.944020",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "טיווט",
+      "price": 150,
+      "currency": "USD",
+      "dates": [
+        "7/30/2026 4:10:00 PM",
+        "8/3/2026 8:00:00 AM"
+      ],
+      "scraped_at": "2026-07-29T13:45:50.993427",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "ברצלונה",
+      "price": 150,
+      "currency": "USD",
+      "dates": [
+        "7/30/2026 6:10:00 PM",
+        "8/2/2026 7:40:00 PM"
+      ],
+      "scraped_at": "2026-07-29T13:45:51.014153",
       "url": "https://www.tustus.co.il/Arkia/Home"
     }
   ],
-  "new_flights": [],
-  "last_check": "2026-07-29T13:30:42.719651",
-  "total_flights_found": 27,
-  "new_flights_count": 0
+  "new_flights": [
+    {
+      "destination": "טיווט",
+      "price": 150,
+      "currency": "USD",
+      "dates": [
+        "7/30/2026 4:10:00 PM",
+        "8/3/2026 8:00:00 AM"
+      ],
+      "scraped_at": "2026-07-29T13:45:50.869069",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "ברצלונה",
+      "price": 150,
+      "currency": "USD",
+      "dates": [
+        "7/30/2026 6:10:00 PM",
+        "8/2/2026 7:40:00 PM"
+      ],
+      "scraped_at": "2026-07-29T13:45:50.888565",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "טיווט",
+      "price": 150,
+      "currency": "USD",
+      "dates": [
+        "7/30/2026 4:10:00 PM",
+        "8/3/2026 8:00:00 AM"
+      ],
+      "scraped_at": "2026-07-29T13:45:50.961946",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "טיווט",
+      "price": 150,
+      "currency": "USD",
+      "dates": [
+        "7/30/2026 4:10:00 PM",
+        "8/3/2026 8:00:00 AM"
+      ],
+      "scraped_at": "2026-07-29T13:45:50.993427",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "ברצלונה",
+      "price": 150,
+      "currency": "USD",
+      "dates": [
+        "7/30/2026 6:10:00 PM",
+        "8/2/2026 7:40:00 PM"
+      ],
+      "scraped_at": "2026-07-29T13:45:51.014153",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    }
+  ],
+  "last_check": "2026-07-29T13:45:51.032438",
+  "total_flights_found": 29,
+  "new_flights_count": 5
 }
