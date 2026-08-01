@@ -811,7 +811,7 @@
         "8/2/2026 3:00:00 AM",
         "8/4/2026 8:25:00 PM"
       ],
-      "scraped_at": "2026-08-01T16:30:35.822584",
+      "scraped_at": "2026-08-01T16:45:39.672413",
       "url": "https://www.tustus.co.il/Arkia/Home"
     },
     {
@@ -844,12 +844,12 @@
         "8/2/2026 3:00:00 AM",
         "8/5/2026 9:15:00 PM"
       ],
-      "scraped_at": "2026-08-01T16:30:35.847164",
+      "scraped_at": "2026-08-01T16:45:39.687831",
       "url": "https://www.tustus.co.il/Arkia/Home"
     }
   ],
   "new_flights": [],
-  "last_check": "2026-08-01T16:30:35.856335",
+  "last_check": "2026-08-01T16:45:39.694745",
   "total_flights_found": 77,
   "new_flights_count": 0
 }
