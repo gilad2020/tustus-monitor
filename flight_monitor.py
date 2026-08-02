@@ -59,14 +59,16 @@ class FlightMonitor:
             signature = self.create_flight_signature(flight)
             previous_signatures.add(signature)
         
-        # חיפוש טיסות חדשות
+        # חיפוש טיסות חדשות (תוך מניעת כפילויות בתוך אותה סריקה)
         new_flights = []
+        seen_signatures = set()
         for flight in current_flights:
             signature = self.create_flight_signature(flight)
-            if signature not in previous_signatures:
+            if signature not in previous_signatures and signature not in seen_signatures:
                 new_flights.append(flight)
+                seen_signatures.add(signature)
                 logging.info(f"טיסה חדשה נמצאה: {flight['destination']} - {flight.get('dates', 'ללא תאריכים')}")
-        
+
         return new_flights
     
     def merge_known_flights(self, current_flights: List[Dict]) -> List[Dict]:
