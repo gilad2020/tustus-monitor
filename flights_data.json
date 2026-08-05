@@ -844,7 +844,7 @@
         "8/6/2026 8:45:00 PM",
         "8/12/2026 10:00:00 AM"
       ],
-      "scraped_at": "2026-08-05T12:15:40.570775",
+      "scraped_at": "2026-08-05T12:30:58.650577",
       "url": "https://www.tustus.co.il/Arkia/Home"
     },
     {
@@ -921,7 +921,7 @@
         "8/7/2026 8:15:00 AM",
         "8/14/2026 9:45:00 AM"
       ],
-      "scraped_at": "2026-08-05T12:15:40.598378",
+      "scraped_at": "2026-08-05T12:30:58.686069",
       "url": "https://www.tustus.co.il/Arkia/Home"
     },
     {
@@ -1031,7 +1031,7 @@
         "8/6/2026 8:45:00 PM",
         "8/8/2026 5:20:00 PM"
       ],
-      "scraped_at": "2026-08-05T12:15:40.514727",
+      "scraped_at": "2026-08-05T12:30:58.516421",
       "url": "https://www.tustus.co.il/Arkia/Home"
     },
     {
@@ -1042,7 +1042,7 @@
         "8/6/2026 3:40:00 PM",
         "8/11/2026 8:00:00 AM"
       ],
-      "scraped_at": "2026-08-05T12:15:40.405602",
+      "scraped_at": "2026-08-05T12:30:58.358683",
       "url": "https://www.tustus.co.il/Arkia/Home"
     },
     {
@@ -1053,7 +1053,18 @@
         "8/6/2026 8:45:00 PM",
         "8/8/2026 2:00:00 PM"
       ],
-      "scraped_at": "2026-08-05T12:15:40.449761",
+      "scraped_at": "2026-08-05T12:30:58.444809",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "כרתים",
+      "price": 150,
+      "currency": "USD",
+      "dates": [
+        "8/6/2026 8:45:00 PM",
+        "8/10/2026 7:40:00 PM"
+      ],
+      "scraped_at": "2026-08-05T12:30:58.584272",
       "url": "https://www.tustus.co.il/Arkia/Home"
     }
   ],
@@ -1064,13 +1075,13 @@
       "currency": "USD",
       "dates": [
         "8/6/2026 8:45:00 PM",
-        "8/8/2026 2:00:00 PM"
+        "8/10/2026 7:40:00 PM"
       ],
-      "scraped_at": "2026-08-05T12:15:40.253632",
+      "scraped_at": "2026-08-05T12:30:58.533926",
       "url": "https://www.tustus.co.il/Arkia/Home"
     }
   ],
-  "last_check": "2026-08-05T12:15:40.614865",
-  "total_flights_found": 96,
+  "last_check": "2026-08-05T12:30:58.693613",
+  "total_flights_found": 97,
   "new_flights_count": 1
 }
