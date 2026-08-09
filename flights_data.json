@@ -525,7 +525,7 @@
         "8/10/2026 7:20:00 PM",
         "8/12/2026 11:35:00 AM"
       ],
-      "scraped_at": "2026-08-09T13:15:51.092054",
+      "scraped_at": "2026-08-09T13:31:02.517435",
       "url": "https://www.tustus.co.il/Arkia/Home"
     },
     {
@@ -569,7 +569,7 @@
         "8/11/2026 4:35:00 PM",
         "8/13/2026 11:00:00 AM"
       ],
-      "scraped_at": "2026-08-09T13:15:51.249350",
+      "scraped_at": "2026-08-09T13:31:02.699125",
       "url": "https://www.tustus.co.il/Arkia/Home"
     },
     {
@@ -580,7 +580,7 @@
         "8/11/2026 4:35:00 PM",
         "8/14/2026 6:00:00 PM"
       ],
-      "scraped_at": "2026-08-09T13:15:51.522646",
+      "scraped_at": "2026-08-09T13:31:02.760538",
       "url": "https://www.tustus.co.il/Arkia/Home"
     },
     {
@@ -602,7 +602,7 @@
         "8/11/2026 3:55:00 PM",
         "8/13/2026 12:35:00 PM"
       ],
-      "scraped_at": "2026-08-09T13:15:51.138092",
+      "scraped_at": "2026-08-09T13:31:02.585903",
       "url": "https://www.tustus.co.il/Arkia/Home"
     },
     {
@@ -624,12 +624,35 @@
         "8/11/2026 3:55:00 PM",
         "8/15/2026 10:00:00 AM"
       ],
-      "scraped_at": "2026-08-09T13:15:51.199149",
+      "scraped_at": "2026-08-09T13:31:02.652517",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "סופיה",
+      "price": 150,
+      "currency": "USD",
+      "dates": [
+        "8/10/2026 8:35:00 PM",
+        "8/14/2026 1:20:00 PM"
+      ],
+      "scraped_at": "2026-08-09T13:31:02.465676",
       "url": "https://www.tustus.co.il/Arkia/Home"
     }
   ],
-  "new_flights": [],
-  "last_check": "2026-08-09T13:15:51.540918",
-  "total_flights_found": 57,
-  "new_flights_count": 0
+  "new_flights": [
+    {
+      "destination": "סופיה",
+      "price": 150,
+      "currency": "USD",
+      "dates": [
+        "8/10/2026 8:35:00 PM",
+        "8/14/2026 1:20:00 PM"
+      ],
+      "scraped_at": "2026-08-09T13:31:02.465676",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    }
+  ],
+  "last_check": "2026-08-09T13:31:02.767278",
+  "total_flights_found": 58,
+  "new_flights_count": 1
 }
