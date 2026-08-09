@@ -525,12 +525,57 @@
         "8/10/2026 7:20:00 PM",
         "8/12/2026 11:35:00 AM"
       ],
-      "scraped_at": "2026-08-09T10:00:59.246860",
+      "scraped_at": "2026-08-09T10:15:45.989247",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "כרתים",
+      "price": 150,
+      "currency": "USD",
+      "dates": [
+        "8/10/2026 6:40:00 PM",
+        "8/12/2026 10:00:00 AM"
+      ],
+      "scraped_at": "2026-08-09T10:15:46.040774",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "כרתים",
+      "price": 150,
+      "currency": "USD",
+      "dates": [
+        "8/10/2026 6:40:00 PM",
+        "8/13/2026 11:00:00 AM"
+      ],
+      "scraped_at": "2026-08-09T10:15:46.107506",
       "url": "https://www.tustus.co.il/Arkia/Home"
     }
   ],
-  "new_flights": [],
-  "last_check": "2026-08-09T10:00:59.253553",
-  "total_flights_found": 48,
-  "new_flights_count": 0
+  "new_flights": [
+    {
+      "destination": "כרתים",
+      "price": 150,
+      "currency": "USD",
+      "dates": [
+        "8/10/2026 6:40:00 PM",
+        "8/12/2026 10:00:00 AM"
+      ],
+      "scraped_at": "2026-08-09T10:15:45.971959",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "כרתים",
+      "price": 150,
+      "currency": "USD",
+      "dates": [
+        "8/10/2026 6:40:00 PM",
+        "8/13/2026 11:00:00 AM"
+      ],
+      "scraped_at": "2026-08-09T10:15:46.058080",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    }
+  ],
+  "last_check": "2026-08-09T10:15:46.126927",
+  "total_flights_found": 50,
+  "new_flights_count": 2
 }
