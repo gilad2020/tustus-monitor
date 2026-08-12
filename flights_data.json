@@ -569,24 +569,12 @@
         "8/15/2026 7:50:00 PM",
         "8/17/2026 10:55:00 AM"
       ],
-      "scraped_at": "2026-08-12T18:00:58.064493",
+      "scraped_at": "2026-08-12T18:15:40.150341",
       "url": "https://www.tustus.co.il/Arkia/Home"
     }
   ],
-  "new_flights": [
-    {
-      "destination": "רומא",
-      "price": 150,
-      "currency": "USD",
-      "dates": [
-        "8/15/2026 7:50:00 PM",
-        "8/17/2026 10:55:00 AM"
-      ],
-      "scraped_at": "2026-08-12T18:00:58.047528",
-      "url": "https://www.tustus.co.il/Arkia/Home"
-    }
-  ],
-  "last_check": "2026-08-12T18:00:58.080809",
+  "new_flights": [],
+  "last_check": "2026-08-12T18:15:40.166780",
   "total_flights_found": 52,
-  "new_flights_count": 1
+  "new_flights_count": 0
 }
