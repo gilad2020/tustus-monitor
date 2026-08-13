@@ -393,12 +393,57 @@
         "8/15/2026 7:50:00 PM",
         "8/17/2026 10:55:00 AM"
       ],
-      "scraped_at": "2026-08-13T14:00:59.894993",
+      "scraped_at": "2026-08-13T14:16:00.784852",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "קורפו",
+      "price": 150,
+      "currency": "USD",
+      "dates": [
+        "8/14/2026 9:30:00 AM",
+        "8/16/2026 9:40:00 AM"
+      ],
+      "scraped_at": "2026-08-13T14:16:00.712677",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "קורפו",
+      "price": 150,
+      "currency": "USD",
+      "dates": [
+        "8/14/2026 9:30:00 AM",
+        "8/19/2026 11:35:00 AM"
+      ],
+      "scraped_at": "2026-08-13T14:16:00.764942",
       "url": "https://www.tustus.co.il/Arkia/Home"
     }
   ],
-  "new_flights": [],
-  "last_check": "2026-08-13T14:00:59.913567",
-  "total_flights_found": 36,
-  "new_flights_count": 0
+  "new_flights": [
+    {
+      "destination": "קורפו",
+      "price": 150,
+      "currency": "USD",
+      "dates": [
+        "8/14/2026 9:30:00 AM",
+        "8/16/2026 9:40:00 AM"
+      ],
+      "scraped_at": "2026-08-13T14:16:00.661856",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "קורפו",
+      "price": 150,
+      "currency": "USD",
+      "dates": [
+        "8/14/2026 9:30:00 AM",
+        "8/19/2026 11:35:00 AM"
+      ],
+      "scraped_at": "2026-08-13T14:16:00.740479",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    }
+  ],
+  "last_check": "2026-08-13T14:16:00.834595",
+  "total_flights_found": 38,
+  "new_flights_count": 2
 }
