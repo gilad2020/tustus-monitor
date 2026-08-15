@@ -283,12 +283,12 @@
         "8/15/2026 9:30:00 PM",
         "8/17/2026 10:55:00 AM"
       ],
-      "scraped_at": "2026-08-15T14:00:46.114207",
+      "scraped_at": "2026-08-15T14:15:48.485333",
       "url": "https://www.tustus.co.il/Arkia/Home"
     }
   ],
   "new_flights": [],
-  "last_check": "2026-08-15T14:00:46.119104",
+  "last_check": "2026-08-15T14:15:48.512896",
   "total_flights_found": 26,
   "new_flights_count": 0
 }
