@@ -274,10 +274,33 @@
       ],
       "scraped_at": "2026-08-15T09:45:30.796214",
       "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "רומא",
+      "price": 150,
+      "currency": "USD",
+      "dates": [
+        "8/15/2026 9:30:00 PM",
+        "8/17/2026 10:55:00 AM"
+      ],
+      "scraped_at": "2026-08-15T10:00:42.616527",
+      "url": "https://www.tustus.co.il/Arkia/Home"
     }
   ],
-  "new_flights": [],
-  "last_check": "2026-08-15T09:45:30.805559",
-  "total_flights_found": 25,
-  "new_flights_count": 0
+  "new_flights": [
+    {
+      "destination": "רומא",
+      "price": 150,
+      "currency": "USD",
+      "dates": [
+        "8/15/2026 9:30:00 PM",
+        "8/17/2026 10:55:00 AM"
+      ],
+      "scraped_at": "2026-08-15T10:00:42.578564",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    }
+  ],
+  "last_check": "2026-08-15T10:00:42.626815",
+  "total_flights_found": 26,
+  "new_flights_count": 1
 }
