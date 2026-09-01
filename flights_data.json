@@ -8,12 +8,79 @@
         "9/2/2026 7:20:00 PM",
         "9/4/2026 9:20:00 AM"
       ],
-      "scraped_at": "2026-09-01T17:30:47.029529",
+      "scraped_at": "2026-09-01T17:45:44.979063",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "וינה",
+      "price": 150,
+      "currency": "USD",
+      "dates": [
+        "9/2/2026 9:25:00 AM",
+        "9/5/2026 11:00:00 AM"
+      ],
+      "scraped_at": "2026-09-01T17:45:44.865193",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "כרתים",
+      "price": 150,
+      "currency": "USD",
+      "dates": [
+        "9/2/2026 5:30:00 PM",
+        "9/4/2026 9:20:00 PM"
+      ],
+      "scraped_at": "2026-09-01T17:45:44.963544",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "אלבניה",
+      "price": 150,
+      "currency": "USD",
+      "dates": [
+        "9/2/2026 9:00:00 PM",
+        "9/5/2026 7:25:00 PM"
+      ],
+      "scraped_at": "2026-09-01T17:45:44.916845",
       "url": "https://www.tustus.co.il/Arkia/Home"
     }
   ],
-  "new_flights": [],
-  "last_check": "2026-09-01T17:30:47.044797",
-  "total_flights_found": 1,
-  "new_flights_count": 0
+  "new_flights": [
+    {
+      "destination": "וינה",
+      "price": 150,
+      "currency": "USD",
+      "dates": [
+        "9/2/2026 9:25:00 AM",
+        "9/5/2026 11:00:00 AM"
+      ],
+      "scraped_at": "2026-09-01T17:45:44.865193",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "כרתים",
+      "price": 150,
+      "currency": "USD",
+      "dates": [
+        "9/2/2026 5:30:00 PM",
+        "9/4/2026 9:20:00 PM"
+      ],
+      "scraped_at": "2026-09-01T17:45:44.885506",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "אלבניה",
+      "price": 150,
+      "currency": "USD",
+      "dates": [
+        "9/2/2026 9:00:00 PM",
+        "9/5/2026 7:25:00 PM"
+      ],
+      "scraped_at": "2026-09-01T17:45:44.916845",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    }
+  ],
+  "last_check": "2026-09-01T17:45:44.995238",
+  "total_flights_found": 4,
+  "new_flights_count": 3
 }
