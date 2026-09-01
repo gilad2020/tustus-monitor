@@ -8,7 +8,7 @@
         "9/2/2026 7:20:00 PM",
         "9/4/2026 9:20:00 AM"
       ],
-      "scraped_at": "2026-09-01T18:15:38.165888",
+      "scraped_at": "2026-09-01T18:30:47.264270",
       "url": "https://www.tustus.co.il/Arkia/Home"
     },
     {
@@ -19,7 +19,7 @@
         "9/2/2026 9:25:00 AM",
         "9/5/2026 11:00:00 AM"
       ],
-      "scraped_at": "2026-09-01T18:15:37.988720",
+      "scraped_at": "2026-09-01T18:30:47.126183",
       "url": "https://www.tustus.co.il/Arkia/Home"
     },
     {
@@ -30,7 +30,7 @@
         "9/2/2026 5:30:00 PM",
         "9/4/2026 9:20:00 PM"
       ],
-      "scraped_at": "2026-09-01T18:15:38.148831",
+      "scraped_at": "2026-09-01T18:30:47.248528",
       "url": "https://www.tustus.co.il/Arkia/Home"
     },
     {
@@ -41,7 +41,7 @@
         "9/2/2026 9:00:00 PM",
         "9/5/2026 7:25:00 PM"
       ],
-      "scraped_at": "2026-09-01T18:15:38.063182",
+      "scraped_at": "2026-09-01T18:30:47.188453",
       "url": "https://www.tustus.co.il/Arkia/Home"
     },
     {
@@ -52,24 +52,12 @@
         "9/2/2026 11:30:00 AM",
         "9/4/2026 11:00:00 AM"
       ],
-      "scraped_at": "2026-09-01T18:15:38.097974",
+      "scraped_at": "2026-09-01T18:30:47.212915",
       "url": "https://www.tustus.co.il/Arkia/Home"
     }
   ],
-  "new_flights": [
-    {
-      "destination": "טיווט",
-      "price": 150,
-      "currency": "USD",
-      "dates": [
-        "9/2/2026 11:30:00 AM",
-        "9/4/2026 11:00:00 AM"
-      ],
-      "scraped_at": "2026-09-01T18:15:38.007583",
-      "url": "https://www.tustus.co.il/Arkia/Home"
-    }
-  ],
-  "last_check": "2026-09-01T18:15:38.180507",
+  "new_flights": [],
+  "last_check": "2026-09-01T18:30:47.314116",
   "total_flights_found": 5,
-  "new_flights_count": 1
+  "new_flights_count": 0
 }
