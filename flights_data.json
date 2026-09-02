@@ -63,7 +63,7 @@
         "9/3/2026 8:25:00 PM",
         "9/7/2026 5:50:00 PM"
       ],
-      "scraped_at": "2026-09-02T12:45:39.507418",
+      "scraped_at": "2026-09-02T13:00:55.690304",
       "url": "https://www.tustus.co.il/Arkia/Home"
     },
     {
@@ -74,7 +74,7 @@
         "9/4/2026 8:20:00 AM",
         "9/11/2026 9:35:00 AM"
       ],
-      "scraped_at": "2026-09-02T12:45:39.575444",
+      "scraped_at": "2026-09-02T13:00:55.792963",
       "url": "https://www.tustus.co.il/Arkia/Home"
     },
     {
@@ -85,7 +85,7 @@
         "9/5/2026 7:40:00 PM",
         "9/11/2026 9:35:00 AM"
       ],
-      "scraped_at": "2026-09-02T12:45:39.621992",
+      "scraped_at": "2026-09-02T13:00:55.825338",
       "url": "https://www.tustus.co.il/Arkia/Home"
     },
     {
@@ -96,7 +96,7 @@
         "9/5/2026 10:20:00 PM",
         "9/7/2026 5:50:00 PM"
       ],
-      "scraped_at": "2026-09-02T12:45:39.544372",
+      "scraped_at": "2026-09-02T13:00:55.724580",
       "url": "https://www.tustus.co.il/Arkia/Home"
     },
     {
@@ -107,7 +107,7 @@
         "9/3/2026 8:25:00 PM",
         "9/8/2026 8:25:00 PM"
       ],
-      "scraped_at": "2026-09-02T12:45:39.560038",
+      "scraped_at": "2026-09-02T13:00:55.777225",
       "url": "https://www.tustus.co.il/Arkia/Home"
     },
     {
@@ -118,46 +118,35 @@
         "9/5/2026 10:20:00 PM",
         "9/8/2026 8:25:00 PM"
       ],
-      "scraped_at": "2026-09-02T12:45:39.636586",
+      "scraped_at": "2026-09-02T13:00:55.841440",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "טיווט",
+      "price": 150,
+      "currency": "USD",
+      "dates": [
+        "9/3/2026 4:10:00 PM",
+        "9/8/2026 8:00:00 AM"
+      ],
+      "scraped_at": "2026-09-02T13:00:55.761230",
       "url": "https://www.tustus.co.il/Arkia/Home"
     }
   ],
   "new_flights": [
     {
-      "destination": "סלוניקי",
+      "destination": "טיווט",
       "price": 150,
       "currency": "USD",
       "dates": [
-        "9/5/2026 10:20:00 PM",
-        "9/7/2026 5:50:00 PM"
+        "9/3/2026 4:10:00 PM",
+        "9/8/2026 8:00:00 AM"
       ],
-      "scraped_at": "2026-09-02T12:45:39.544372",
-      "url": "https://www.tustus.co.il/Arkia/Home"
-    },
-    {
-      "destination": "סלוניקי",
-      "price": 150,
-      "currency": "USD",
-      "dates": [
-        "9/3/2026 8:25:00 PM",
-        "9/8/2026 8:25:00 PM"
-      ],
-      "scraped_at": "2026-09-02T12:45:39.560038",
-      "url": "https://www.tustus.co.il/Arkia/Home"
-    },
-    {
-      "destination": "סלוניקי",
-      "price": 150,
-      "currency": "USD",
-      "dates": [
-        "9/5/2026 10:20:00 PM",
-        "9/8/2026 8:25:00 PM"
-      ],
-      "scraped_at": "2026-09-02T12:45:39.636586",
+      "scraped_at": "2026-09-02T13:00:55.673527",
       "url": "https://www.tustus.co.il/Arkia/Home"
     }
   ],
-  "last_check": "2026-09-02T12:45:39.650853",
-  "total_flights_found": 11,
-  "new_flights_count": 3
+  "last_check": "2026-09-02T13:00:55.847584",
+  "total_flights_found": 12,
+  "new_flights_count": 1
 }
