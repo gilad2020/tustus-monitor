@@ -723,7 +723,7 @@
         "9/10/2026 6:50:00 PM",
         "9/12/2026 9:35:00 PM"
       ],
-      "scraped_at": "2026-09-09T12:30:44.598384",
+      "scraped_at": "2026-09-09T12:45:43.069333",
       "url": "https://www.tustus.co.il/Arkia/Home"
     },
     {
@@ -976,7 +976,7 @@
         "9/10/2026 4:10:00 PM",
         "9/14/2026 8:00:00 AM"
       ],
-      "scraped_at": "2026-09-09T12:30:44.530575",
+      "scraped_at": "2026-09-09T12:45:43.005303",
       "url": "https://www.tustus.co.il/Arkia/Home"
     },
     {
@@ -1064,7 +1064,7 @@
         "9/10/2026 8:15:00 AM",
         "9/17/2026 11:15:00 AM"
       ],
-      "scraped_at": "2026-09-09T12:30:44.442385",
+      "scraped_at": "2026-09-09T12:45:42.719939",
       "url": "https://www.tustus.co.il/Arkia/Home"
     },
     {
@@ -1075,7 +1075,7 @@
         "9/10/2026 5:10:00 PM",
         "9/17/2026 6:40:00 PM"
       ],
-      "scraped_at": "2026-09-09T12:30:44.566593",
+      "scraped_at": "2026-09-09T12:45:43.037192",
       "url": "https://www.tustus.co.il/Arkia/Home"
     },
     {
@@ -1086,7 +1086,7 @@
         "9/10/2026 7:20:00 PM",
         "9/17/2026 11:15:00 AM"
       ],
-      "scraped_at": "2026-09-09T12:30:44.582466",
+      "scraped_at": "2026-09-09T12:45:43.053748",
       "url": "https://www.tustus.co.il/Arkia/Home"
     },
     {
@@ -1097,7 +1097,7 @@
         "9/11/2026 6:35:00 PM",
         "9/14/2026 4:30:00 PM"
       ],
-      "scraped_at": "2026-09-09T12:30:44.614419",
+      "scraped_at": "2026-09-09T12:45:43.247104",
       "url": "https://www.tustus.co.il/Arkia/Home"
     },
     {
@@ -1108,12 +1108,167 @@
         "9/10/2026 1:20:00 PM",
         "9/12/2026 3:30:00 PM"
       ],
-      "scraped_at": "2026-09-09T12:30:44.493972",
+      "scraped_at": "2026-09-09T12:45:42.973182",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "בודפשט",
+      "price": 150,
+      "currency": "USD",
+      "dates": [
+        "9/10/2026 8:35:00 AM",
+        "9/18/2026 1:15:00 PM"
+      ],
+      "scraped_at": "2026-09-09T12:45:42.753942",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "מילאנו",
+      "price": 150,
+      "currency": "USD",
+      "dates": [
+        "9/10/2026 9:40:00 AM",
+        "9/14/2026 12:45:00 PM"
+      ],
+      "scraped_at": "2026-09-09T12:45:42.832146",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "מילאנו",
+      "price": 150,
+      "currency": "USD",
+      "dates": [
+        "9/11/2026 10:45:00 AM",
+        "9/14/2026 12:45:00 PM"
+      ],
+      "scraped_at": "2026-09-09T12:45:43.133469",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "בודפשט",
+      "price": 150,
+      "currency": "USD",
+      "dates": [
+        "9/10/2026 8:35:00 AM",
+        "9/19/2026 8:50:00 PM"
+      ],
+      "scraped_at": "2026-09-09T12:45:42.801186",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "מילאנו",
+      "price": 150,
+      "currency": "USD",
+      "dates": [
+        "9/10/2026 9:40:00 AM",
+        "9/17/2026 10:45:00 AM"
+      ],
+      "scraped_at": "2026-09-09T12:45:42.881738",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "רומא",
+      "price": 150,
+      "currency": "USD",
+      "dates": [
+        "9/10/2026 6:50:00 PM",
+        "9/17/2026 7:55:00 PM"
+      ],
+      "scraped_at": "2026-09-09T12:45:43.101349",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "מילאנו",
+      "price": 150,
+      "currency": "USD",
+      "dates": [
+        "9/11/2026 10:45:00 AM",
+        "9/17/2026 10:45:00 AM"
+      ],
+      "scraped_at": "2026-09-09T12:45:43.230956",
       "url": "https://www.tustus.co.il/Arkia/Home"
     }
   ],
-  "new_flights": [],
-  "last_check": "2026-09-09T12:30:44.740923",
-  "total_flights_found": 101,
-  "new_flights_count": 0
+  "new_flights": [
+    {
+      "destination": "בודפשט",
+      "price": 150,
+      "currency": "USD",
+      "dates": [
+        "9/10/2026 8:35:00 AM",
+        "9/18/2026 1:15:00 PM"
+      ],
+      "scraped_at": "2026-09-09T12:45:42.432508",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "מילאנו",
+      "price": 150,
+      "currency": "USD",
+      "dates": [
+        "9/10/2026 9:40:00 AM",
+        "9/14/2026 12:45:00 PM"
+      ],
+      "scraped_at": "2026-09-09T12:45:42.454057",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "מילאנו",
+      "price": 150,
+      "currency": "USD",
+      "dates": [
+        "9/11/2026 10:45:00 AM",
+        "9/14/2026 12:45:00 PM"
+      ],
+      "scraped_at": "2026-09-09T12:45:42.673318",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "בודפשט",
+      "price": 150,
+      "currency": "USD",
+      "dates": [
+        "9/10/2026 8:35:00 AM",
+        "9/19/2026 8:50:00 PM"
+      ],
+      "scraped_at": "2026-09-09T12:45:42.769728",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "מילאנו",
+      "price": 150,
+      "currency": "USD",
+      "dates": [
+        "9/10/2026 9:40:00 AM",
+        "9/17/2026 10:45:00 AM"
+      ],
+      "scraped_at": "2026-09-09T12:45:42.847846",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "רומא",
+      "price": 150,
+      "currency": "USD",
+      "dates": [
+        "9/10/2026 6:50:00 PM",
+        "9/17/2026 7:55:00 PM"
+      ],
+      "scraped_at": "2026-09-09T12:45:43.085402",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "מילאנו",
+      "price": 150,
+      "currency": "USD",
+      "dates": [
+        "9/11/2026 10:45:00 AM",
+        "9/17/2026 10:45:00 AM"
+      ],
+      "scraped_at": "2026-09-09T12:45:43.149186",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    }
+  ],
+  "last_check": "2026-09-09T12:45:43.255442",
+  "total_flights_found": 108,
+  "new_flights_count": 7
 }
