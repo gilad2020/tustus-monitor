@@ -723,7 +723,7 @@
         "9/10/2026 6:50:00 PM",
         "9/12/2026 9:35:00 PM"
       ],
-      "scraped_at": "2026-09-09T10:30:39.009332",
+      "scraped_at": "2026-09-09T10:45:47.800933",
       "url": "https://www.tustus.co.il/Arkia/Home"
     },
     {
@@ -811,7 +811,7 @@
         "9/9/2026 9:25:00 PM",
         "9/11/2026 8:20:00 AM"
       ],
-      "scraped_at": "2026-09-09T10:30:38.909594",
+      "scraped_at": "2026-09-09T10:45:47.690965",
       "url": "https://www.tustus.co.il/Arkia/Home"
     },
     {
@@ -976,7 +976,7 @@
         "9/10/2026 4:10:00 PM",
         "9/14/2026 8:00:00 AM"
       ],
-      "scraped_at": "2026-09-09T10:30:38.952236",
+      "scraped_at": "2026-09-09T10:45:47.737830",
       "url": "https://www.tustus.co.il/Arkia/Home"
     },
     {
@@ -1064,7 +1064,7 @@
         "9/10/2026 8:15:00 AM",
         "9/17/2026 11:15:00 AM"
       ],
-      "scraped_at": "2026-09-09T10:30:38.924165",
+      "scraped_at": "2026-09-09T10:45:47.706574",
       "url": "https://www.tustus.co.il/Arkia/Home"
     },
     {
@@ -1075,7 +1075,7 @@
         "9/10/2026 5:10:00 PM",
         "9/17/2026 6:40:00 PM"
       ],
-      "scraped_at": "2026-09-09T10:30:38.980781",
+      "scraped_at": "2026-09-09T10:45:47.769549",
       "url": "https://www.tustus.co.il/Arkia/Home"
     },
     {
@@ -1086,46 +1086,12 @@
         "9/10/2026 7:20:00 PM",
         "9/17/2026 11:15:00 AM"
       ],
-      "scraped_at": "2026-09-09T10:30:38.995232",
+      "scraped_at": "2026-09-09T10:45:47.785101",
       "url": "https://www.tustus.co.il/Arkia/Home"
     }
   ],
-  "new_flights": [
-    {
-      "destination": "בטומי",
-      "price": 150,
-      "currency": "USD",
-      "dates": [
-        "9/10/2026 8:15:00 AM",
-        "9/17/2026 11:15:00 AM"
-      ],
-      "scraped_at": "2026-09-09T10:30:38.693338",
-      "url": "https://www.tustus.co.il/Arkia/Home"
-    },
-    {
-      "destination": "פראג",
-      "price": 150,
-      "currency": "USD",
-      "dates": [
-        "9/10/2026 5:10:00 PM",
-        "9/17/2026 6:40:00 PM"
-      ],
-      "scraped_at": "2026-09-09T10:30:38.741810",
-      "url": "https://www.tustus.co.il/Arkia/Home"
-    },
-    {
-      "destination": "בטומי",
-      "price": 150,
-      "currency": "USD",
-      "dates": [
-        "9/10/2026 7:20:00 PM",
-        "9/17/2026 11:15:00 AM"
-      ],
-      "scraped_at": "2026-09-09T10:30:38.757686",
-      "url": "https://www.tustus.co.il/Arkia/Home"
-    }
-  ],
-  "last_check": "2026-09-09T10:30:39.017340",
+  "new_flights": [],
+  "last_check": "2026-09-09T10:45:47.818015",
   "total_flights_found": 99,
-  "new_flights_count": 3
+  "new_flights_count": 0
 }
