@@ -1737,10 +1737,77 @@
       ],
       "scraped_at": "2026-10-02T00:31:10.857334",
       "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "באקו",
+      "price": 150,
+      "currency": "USD",
+      "dates": [
+        "10/5/2026 9:45:00 AM",
+        "10/7/2026 1:10:00 PM"
+      ],
+      "scraped_at": "2026-10-04T07:16:15.834281",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "אלבניה",
+      "price": 150,
+      "currency": "USD",
+      "dates": [
+        "10/6/2026 4:05:00 PM",
+        "10/8/2026 10:25:00 PM"
+      ],
+      "scraped_at": "2026-10-04T07:16:15.857679",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "מילאנו",
+      "price": 150,
+      "currency": "USD",
+      "dates": [
+        "10/7/2026 12:25:00 AM",
+        "10/8/2026 10:30:00 AM"
+      ],
+      "scraped_at": "2026-10-04T07:16:15.909101",
+      "url": "https://www.tustus.co.il/Arkia/Home"
     }
   ],
-  "new_flights": [],
-  "last_check": "2026-10-04T07:00:59.316768",
-  "total_flights_found": 158,
-  "new_flights_count": 0
+  "new_flights": [
+    {
+      "destination": "באקו",
+      "price": 150,
+      "currency": "USD",
+      "dates": [
+        "10/5/2026 9:45:00 AM",
+        "10/7/2026 1:10:00 PM"
+      ],
+      "scraped_at": "2026-10-04T07:16:15.834281",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "אלבניה",
+      "price": 150,
+      "currency": "USD",
+      "dates": [
+        "10/6/2026 4:05:00 PM",
+        "10/8/2026 10:25:00 PM"
+      ],
+      "scraped_at": "2026-10-04T07:16:15.857679",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    },
+    {
+      "destination": "מילאנו",
+      "price": 150,
+      "currency": "USD",
+      "dates": [
+        "10/7/2026 12:25:00 AM",
+        "10/8/2026 10:30:00 AM"
+      ],
+      "scraped_at": "2026-10-04T07:16:15.873250",
+      "url": "https://www.tustus.co.il/Arkia/Home"
+    }
+  ],
+  "last_check": "2026-10-04T07:16:15.934815",
+  "total_flights_found": 161,
+  "new_flights_count": 3
 }
