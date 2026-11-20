@@ -1,105 +1,6 @@
 {
   "flights": [
     {
-      "destination": "ברצלונה",
-      "price": 150,
-      "currency": "USD",
-      "dates": [
-        "11/12/2026 12:30:00 PM",
-        "11/19/2026 2:00:00 PM"
-      ],
-      "scraped_at": "2026-11-12T01:00:46.065145",
-      "url": "https://www.tustus.co.il/Arkia/Home"
-    },
-    {
-      "destination": "לרנקה",
-      "price": 100,
-      "currency": "USD",
-      "dates": [
-        "11/13/2026 10:00:00 AM",
-        "11/19/2026 2:25:00 PM"
-      ],
-      "scraped_at": "2026-11-13T01:00:57.255338",
-      "url": "https://www.tustus.co.il/Arkia/Home"
-    },
-    {
-      "destination": "לרנקה",
-      "price": 100,
-      "currency": "USD",
-      "dates": [
-        "11/13/2026 10:00:00 AM",
-        "11/19/2026 6:40:00 PM"
-      ],
-      "scraped_at": "2026-11-13T01:00:57.350485",
-      "url": "https://www.tustus.co.il/Arkia/Home"
-    },
-    {
-      "destination": "ברצלונה",
-      "price": 150,
-      "currency": "USD",
-      "dates": [
-        "11/15/2026 7:15:00 PM",
-        "11/19/2026 2:00:00 PM"
-      ],
-      "scraped_at": "2026-11-15T07:45:48.116181",
-      "url": "https://www.tustus.co.il/Arkia/Home"
-    },
-    {
-      "destination": "לרנקה",
-      "price": 100,
-      "currency": "USD",
-      "dates": [
-        "11/15/2026 3:30:00 PM",
-        "11/19/2026 2:25:00 PM"
-      ],
-      "scraped_at": "2026-11-15T06:30:56.763229",
-      "url": "https://www.tustus.co.il/Arkia/Home"
-    },
-    {
-      "destination": "לרנקה",
-      "price": 100,
-      "currency": "USD",
-      "dates": [
-        "11/15/2026 3:30:00 PM",
-        "11/19/2026 6:40:00 PM"
-      ],
-      "scraped_at": "2026-11-15T06:30:56.857760",
-      "url": "https://www.tustus.co.il/Arkia/Home"
-    },
-    {
-      "destination": "בטומי",
-      "price": 150,
-      "currency": "USD",
-      "dates": [
-        "11/17/2026 2:15:00 PM",
-        "11/19/2026 1:45:00 PM"
-      ],
-      "scraped_at": "2026-11-16T10:15:34.894840",
-      "url": "https://www.tustus.co.il/Arkia/Home"
-    },
-    {
-      "destination": "אתונה",
-      "price": 150,
-      "currency": "USD",
-      "dates": [
-        "11/17/2026 1:30:00 PM",
-        "11/19/2026 12:20:00 PM"
-      ],
-      "scraped_at": "2026-11-16T10:15:35.046346",
-      "url": "https://www.tustus.co.il/Arkia/Home"
-    },
-    {
-      "destination": "בטומי",
-      "price": 150,
-      "currency": "USD",
-      "dates": [
-        "11/16/2026 12:10:00 PM",
-        "11/19/2026 1:45:00 PM"
-      ],
-      "scraped_at": "2026-11-16T00:00:50.468166",
-      "url": "https://www.tustus.co.il/Arkia/Home"
-    },
-    {
       "destination": "בטומי",
       "price": 150,
       "currency": "USD",
@@ -108,28 +9,6 @@
         "11/20/2026 4:00:00 PM"
       ],
       "scraped_at": "2026-11-16T00:00:50.491538",
-      "url": "https://www.tustus.co.il/Arkia/Home"
-    },
-    {
-      "destination": "לרנקה",
-      "price": 100,
-      "currency": "USD",
-      "dates": [
-        "11/16/2026 11:45:00 AM",
-        "11/19/2026 2:25:00 PM"
-      ],
-      "scraped_at": "2026-11-16T02:45:43.722974",
-      "url": "https://www.tustus.co.il/Arkia/Home"
-    },
-    {
-      "destination": "לרנקה",
-      "price": 100,
-      "currency": "USD",
-      "dates": [
-        "11/16/2026 11:45:00 AM",
-        "11/19/2026 6:40:00 PM"
-      ],
-      "scraped_at": "2026-11-16T02:45:43.842142",
       "url": "https://www.tustus.co.il/Arkia/Home"
     },
     {
@@ -152,17 +31,6 @@
         "11/20/2026 12:20:00 PM"
       ],
       "scraped_at": "2026-11-16T09:15:34.284248",
-      "url": "https://www.tustus.co.il/Arkia/Home"
-    },
-    {
-      "destination": "אתונה",
-      "price": 150,
-      "currency": "USD",
-      "dates": [
-        "11/16/2026 7:50:00 PM",
-        "11/19/2026 12:20:00 PM"
-      ],
-      "scraped_at": "2026-11-16T09:45:37.506109",
       "url": "https://www.tustus.co.il/Arkia/Home"
     },
     {
@@ -189,7 +57,7 @@
     }
   ],
   "new_flights": [],
-  "last_check": "2026-11-19T23:45:50.851816",
-  "total_flights_found": 17,
+  "last_check": "2026-11-20T00:01:04.762431",
+  "total_flights_found": 5,
   "new_flights_count": 0
 }
